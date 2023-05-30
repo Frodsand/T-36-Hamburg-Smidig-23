@@ -1,7 +1,12 @@
 import './styling/App.css'
+import Login from './pages/login.js'
 
 function App() {
-  return (<div>Hello world!</div>);
+  return (
+    <>
+      <Login />
+    </>
+  );
 }
 
 export default App;
