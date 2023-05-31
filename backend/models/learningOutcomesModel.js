@@ -17,5 +17,5 @@ const learningOutcomesSchema = new Schema({
     }
 })
 
-module.exports = mongoose.model("learningOutcomes", learningOutcomesSchema)
+module.exports = mongoose.model("learningOutcomes", learningOutcomesSchema);
 
