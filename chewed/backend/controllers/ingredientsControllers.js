@@ -1,4 +1,4 @@
-const Ingredient = require('../models/ingredientModel');
+const Ingredient = require('../models/ingredientsModel');
 const  mongoose = require('mongoose');
 
 // GET all ingredients
@@ -27,7 +27,6 @@ const getIngredient = async (req, res) => {
     }
 
     res.status(200).json(ingredient);
-
 }
 
 // POST a new ingredient
@@ -78,6 +77,7 @@ const updateIngredient = async (req, res) => {
 
     res.status(200).json(ingredient);
 }
+
 module.exports = {
     getIngredients,
     getIngredient,
