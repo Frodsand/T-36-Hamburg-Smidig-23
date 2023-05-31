@@ -1,5 +1,4 @@
 const express = require('express')
-const ingredients = require('../models/ingredientsModel')
 
 const router = express.Router()
 
@@ -14,17 +13,9 @@ router.get('/:id', (req, res) => {
 })
 
 // POST a new ingredient
-router.post('/', async (req, res) => {
-    const {name, quantity, price, image} = req.body
+router.post('/', (req, res) => {
 
-    try {
-        const ingredient = await ingredients.create({name, quantity, price, image})
-        res.status(200).json(ingredient)
-    } catch (error){
-        res.status(400).json({error: error.message})
-    }
-
-   // res.json({mssg: 'POST a single ingredient'})
+    res.json({mssg: 'POST a single ingredient'})
 })
 
 // DELETE a ingredient
