@@ -19,6 +19,7 @@
     "supertest": "^6.3.3"
   },
   "scripts": {
+    "install": "cd backend && npm install && cd ../frontend && npm install",
     "start:frontend": "cd frontend && npm start",
     "start:backend": "cd backend && npm start",
     "dev:backend": "cd backend && npm run dev",
