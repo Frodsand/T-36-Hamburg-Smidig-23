@@ -11,10 +11,22 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-jest": "^29.5.0",
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.22",
+    "supertest": "^6.3.3"
+  },
   "scripts": {
-    "start": "react-scripts start",
+    "install": "cd backend && npm install && cd ../frontend && npm install",
+    "start:frontend": "cd frontend && npm start",
+    "start:backend": "cd backend && npm start",
+    "dev:backend": "cd backend && npm run dev",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "cd backend && npm test && cd ../frontend && npm test",
+    "test:frontend": "cd frontend && npm test",
+    "test:backend": "cd backend && npm test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
