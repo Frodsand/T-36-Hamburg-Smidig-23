@@ -16,6 +16,5 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 14.x
-    - run: cd chewed && npm install
-    - run: cd chewed && npm run test:frontend
-    - run: cd chewed && npm run test:backend
+    - run: npm install
+    - run: npm run test
