@@ -7,24 +7,10 @@ const learningOutcomesSchema = new Schema({
         type: String,
         required: true
     },
-    title: {
+    description: {
         type: String,
         required: true
     },
-    summary: {
-        type: String,
-        required: true
-    },
-    lecture: [{
-        subGoal: {
-            type: String,
-            required: true
-        },
-        goalDecription:{
-            type: String,
-            required: true
-        }
-    }],
     level: {
         type: String,
         required: true
