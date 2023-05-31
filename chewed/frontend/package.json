@@ -19,13 +19,9 @@
     "supertest": "^6.3.3"
   },
   "scripts": {
-    "start:frontend": "cd frontend && npm start",
-    "start:backend": "cd backend && npm start",
-    "dev:backend": "cd backend && npm run dev",
+    "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "cd backend && npm test && cd ../frontend && npm test",
-    "test:frontend": "cd frontend && npm test",
-    "test:backend": "cd backend && npm test",
+    "test": "jest --watchAll",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
