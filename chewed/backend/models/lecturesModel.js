@@ -17,5 +17,5 @@ const lecturesSchema = new Schema({
     }
 })
 
-module.exports = mongoose.model("lectures", lecturesSchema)
+module.exports = mongoose.model("lectures", lecturesSchema);
 
