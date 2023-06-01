@@ -1,14 +1,53 @@
+import React, { useState } from 'react';
 
-function Login(){
+function Login() {
+    const [username, setUsername] = useState('');
+    const [password, setPassword] = useState('');
 
-    // Her legger du til funksjonalitet for login
+    const handleUsernameChange = (e) => {
+        setUsername(e.target.value);
+    };
 
-    return(
+    const handlePasswordChange = (e) => {
+        setPassword(e.target.value);
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        // Add your login logic here
+        console.log('Username:', username);
+        console.log('Password:', password);
+        // Clear the form fields
+        setUsername('');
+        setPassword('');
+    };
+
+    return (
         <div>
             <h1>Login</h1>
-            <p>This is the login page</p>
+            <form onSubmit={handleSubmit}>
+                <div>
+                    <label htmlFor="username">Username:</label>
+                    <input
+                        type="text"
+                        id="username"
+                        value={username}
+                        onChange={handleUsernameChange}
+                    />
+                </div>
+                <div>
+                    <label htmlFor="password">Password:</label>
+                    <input
+                        type="password"
+                        id="password"
+                        value={password}
+                        onChange={handlePasswordChange}
+                    />
+                </div>
+                <button type="submit">Login</button>
+            </form>
         </div>
-    )
+    );
 }
 
 export default Login;

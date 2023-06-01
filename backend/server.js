@@ -2,6 +2,7 @@ require('dotenv').config()
 
 const express = require('express')
 const mongoose = require('mongoose')
+const path = require('path');
 
 const semesterPlanRoutes = require('./routes/semesterPlans')
 const lectureRoutes = require('./routes/lectures')
@@ -13,6 +14,15 @@ const ingredientRoutes = require('./routes/ingredients')
 // create express app
 const app = express()
 
+// Serve static files from the frontend/build directory
+app.use(express.static(path.join(__dirname, '..', 'frontend', 'build')));
+
+// Serve your API routes or other middleware here
+
+// Route all remaining requests to your React app's index.html file
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '..', 'frontend', 'build', 'index.html'));
+});
 // middleware
 app.use(express.json())
 
@@ -34,7 +44,7 @@ mongoose.connect(process.env.MONGO_URI)
     .then(() => {
         // listen for requests
         app.listen(process.env.PORT, () => {
-            console.log('connected to db & listening on port', process.env.PORT)
+            console.log(`Server is running on port ${process.env.PORT}`)
         })
     })
     .catch((error) => {
