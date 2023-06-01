@@ -1,31 +1,23 @@
 const express = require('express')
+const LearningOutcome = require('../models/learningOutcomesModel')
+const { getLearningOutcomes, getLearningOutcome, createLearningOutcome, deleteLearningOutcome, updateLearningOutcome } = require('../controllers/learningOutcomesControllers')
 
 const router = express.Router()
 
 // GET all learning outcomes
-router.get('/', (req, res) => {
-    res.json({mssg: 'GET all learning outcomes'})
-})
+router.get('/', getLearningOutcomes)
 
 // GET one learning outcome
-router.get('/:id', (req, res) => {
-    res.json({mssg: 'GET a single learning outcome'})
-})
+router.get('/:id', getLearningOutcome)
 
-/*// POST a new semesterplan
-router.post('/', (req, res) => {
-    res.json({mssg: 'POST a single semesterplan'})
-})
+// POST a new semesterplan
+router.post('/', createLearningOutcome)
 
 // DELETE a semesterplan
-router.delete('/:id', (req, res) => {
-    res.json({mssg: 'DELETE a single semesterplan'})
-})
+router.delete('/:id', deleteLearningOutcome)
 
 // UPDATE a semesterplan
-router.patch('/:id', (req, res) => {
-    res.json({mssg: 'UPDATE a semesterplan'})
-}) */
+router.patch('/:id', updateLearningOutcome)
 
 
 module.exports = router

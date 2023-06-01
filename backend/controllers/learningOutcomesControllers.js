@@ -63,7 +63,7 @@ const updateLearningOutcome = async (req, res) => {
         return res.status(404).json({ error: "No learningOutcome with that id" })
     }
 
-    const learningOutcome = await LearningOutcome.findOneAndUpdate({_id: id}, {
+    const learningOutcome = await LearningOutcomesModel.findOneAndUpdate({_id: id}, {
         ...req.body
     })
 
