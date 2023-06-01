@@ -1,4 +1,4 @@
-const LearningOutcomesModel = require("../models/learningOutcomesModel.js")
+const LearningOutcomesModel = require("../models/learningOutcomesModel")
 const mongoose = require('mongoose')
 
 // GET all learningOutcomes
@@ -80,4 +80,4 @@ module.exports = {
     createLearningOutcome,
     deleteLearningOutcome,
     updateLearningOutcome
-}
+};
