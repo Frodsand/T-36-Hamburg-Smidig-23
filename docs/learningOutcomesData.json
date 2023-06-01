@@ -1,0 +1,522 @@
+[
+    {
+        "category": "Grunnleggende",
+        "title": "Introduksjon til sunn matlaging",
+        "summary": "Denne leksjonen gir en innføring i viktigheten av sunn mat og matlaging.",
+        "lecture": [
+          {
+            "subGoal": "Forstå hvorfor sunn mat er viktig",
+            "goalDecription": "I denne leksjonen vil du lære hvorfor det er viktig å spise sunn mat. Vi vil utforske hvordan sunn mat gir næring til kroppen din, holder deg frisk og energisk, og hjelper deg med å vokse og utvikle deg på best mulig måte."
+          },
+          {
+            "subGoal": "Bli kjent med kjøkkenutstyr og sikkerhetsregler på kjøkkenet",
+            "goalDecription": "I denne leksjonen vil du bli kjent med ulikt kjøkkenutstyr og lære om grunnleggende sikkerhetsregler på kjøkkenet. Vi vil utforske hvordan du kan bruke ulike kjøkkenredskaper riktig og sikkert for å unngå skader og lage deilige matretter."
+          }
+        ],
+        "level": "1"
+      },
+      {
+        "category": "Matvaregrupper",
+        "title": "Grønnsaker og frukt",
+        "summary": "Denne leksjonen handler om viktigheten av å inkludere grønnsaker og frukt i kostholdet.",
+        "lecture": [
+          {
+            "subGoal": "Lære om ulike typer grønnsaker og frukt",
+            "goalDecription": "I denne leksjonen vil du bli kjent med forskjellige grønnsaker og frukt. Vi vil utforske fargerike grønnsaker som gulrøtter, grønne grønnsaker som brokkoli, og saftige frukter som epler og appelsiner. Du vil lære om hvorfor det er bra for kroppen din å spise ulike typer grønnsaker og frukt hver dag."
+          },
+          {
+            "subGoal": "Få kunnskap om porsjonsstørrelser og anbefalt inntak",
+            "goalDecription": "I denne leksjonen vil du lære om riktig mengde grønnsaker og frukt du bør spise hver dag. Vi vil utforske hvor mye som utgjør en porsjon og hvorfor det er viktig å inkludere tilstrekkelig mengde grønnsaker og frukt i kostholdet ditt for å få de nødvendige næringsstoffene og holde deg frisk."
+          }
+        ],
+        "level": "2"
+      },
+      {
+        "category": "Matvaregrupper",
+        "title": "Kornprodukter",
+        "summary": "Denne leksjonen handler om viktigheten av å inkludere kornprodukter i kostholdet.",
+        "lecture": [
+          {
+            "subGoal": "Lære om forskjellige typer kornprodukter",
+            "goalDecription": "I denne leksjonen vil du lære om forskjellige typer kornprodukter, som brød, pasta, ris og havregryn. Vi vil snakke om hvorfor kornprodukter er en viktig kilde til energi for kroppen din, og hvordan de kan være en del av et balansert kosthold."
+          },
+          {
+            "subGoal": "Forstå forskjellen mellom fullkorn og raffinerte kornprodukter",
+            "goalDecription": "I denne leksjonen vil du lære om forskjellen mellom fullkorn og raffinerte kornprodukter. Vi vil utforske hvorfor det er bedre å velge fullkorn, som inneholder mer fiber og næringsstoffer, for å holde kroppen din sunn og mett lengre."
+          }
+        ],
+        "level": "3"
+      },
+      {
+        "category": "Ernæring",
+        "title": "Meieriprodukter",
+        "summary": "Denne leksjonen handler om betydningen av meieriprodukter i kostholdet.",
+        "lecture": [
+          {
+            "subGoal": "Lære om forskjellige meieriprodukter",
+            "goalDecription": "I denne leksjonen vil du bli kjent med forskjellige meieriprodukter, som melk, yoghurt og ost. Vi vil snakke om hvorfor meieriprodukter er en god kilde til kalsium, protein og andre viktige næringsstoffer som kroppen din trenger for å vokse og utvikle seg."
+          },
+          {
+            "subGoal": "Forstå viktigheten av å velge magre eller lette alternativer",
+            "goalDecription": "I denne leksjonen vil du lære hvorfor det er lurt å velge magre eller lette meieriprodukter. Vi vil snakke om hvordan du kan få alle fordelene fra meieriprodukter, samtidig som du begrenser inntaket av mettet fett. Du vil oppdage at det finnes mange deilige alternativer som er sunne for kroppen din."
+          }
+        ],
+        "level": "3"
+      },
+      {
+        "category": "Ernæring",
+        "title": "Fisk og sjømat",
+        "summary": "Denne leksjonen handler om betydningen av fisk og sjømat i kostholdet.",
+        "lecture": [
+          {
+            "subGoal": "Lære om forskjellige typer fisk og sjømat",
+            "goalDecription": "I denne leksjonen vil du bli kjent med forskjellige typer fisk og sjømat, som laks, torsk og reker. Vi vil snakke om hvorfor fisk og sjømat er en god kilde til proteiner, omega-3 fettsyrer og andre viktige næringsstoffer. Du vil oppdage at fisk og sjømat kan være både sunt og smakfullt."
+          },
+          {
+            "subGoal": "Forstå betydningen av bærekraftig fiske",
+            "goalDecription": "I denne leksjonen vil du lære hvorfor det er viktig å velge bærekraftig fanget fisk og sjømat. Vi vil snakke om hvordan du kan bidra til å bevare havets ressurser ved å velge fisk og sjømat som er fanget på en måte som tar vare på miljøet. Du vil oppdage at bærekraftig fiske er bra for både deg og havet."
+          }
+        ],
+        "level": "4"
+      },{
+        "category": "Ernæring",
+        "title": "Fett",
+        "summary": "Denne leksjonen handler om betydningen av fett i kostholdet.",
+        "lecture": [
+          {
+            "subGoal": "Lære om forskjellige typer fett",
+            "goalDecription": "I denne leksjonen vil du lære om forskjellige typer fett, som mettet fett, enumettet fett og flerumettet fett. Vi vil snakke om hvorfor fett er viktig for kroppen din, men også hvorfor det er viktig å velge de sunnere alternativene. Du vil oppdage at noen typer fett kan være bra for kroppen din, mens andre kan være mindre sunne."
+          },
+          {
+            "subGoal": "Forstå viktigheten av å begrense inntaket av mettet fett",
+            "goalDecription": "I denne leksjonen vil du lære hvorfor det er lurt å begrense inntaket av mettet fett. Vi vil snakke om hvordan for mye mettet fett kan påvirke helsen din negativt og øke risikoen for hjerte- og karsykdommer. Du vil oppdage at det finnes sunnere alternativer til mettet fett som kan være like deilige og samtidig bedre for kroppen din."
+          }
+        ],
+        "level": "5"
+      },
+      {
+        "category": "Ernæring",
+        "title": "Karbohydrater",
+        "summary": "Denne leksjonen handler om betydningen av karbohydrater i kostholdet.",
+        "lecture": [
+          {
+            "subGoal": "Lære om forskjellige typer karbohydrater",
+            "goalDecription": "I denne leksjonen vil du lære om forskjellige typer karbohydrater, som sukker, stivelse og fiber. Vi vil snakke om hvordan karbohydrater er kroppens viktigste energikilde, og hvorfor det er viktig å velge de sunnere karbohydratene. Du vil oppdage at fiberrike karbohydrater kan hjelpe til med fordøyelsen og holde deg mett lengre."
+          },
+          {
+            "subGoal": "Forstå forskjellen mellom enkle og komplekse karbohydrater",
+            "goalDecription": "I denne leksjonen vil du lære forskjellen mellom enkle og komplekse karbohydrater. Vi vil snakke om hvordan enkle karbohydrater, som sukker, kan gi rask energi, mens komplekse karbohydrater, som fullkorn, gir en mer jevn energitilførsel. Du vil oppdage at det er lurt å velge komplekse karbohydrater for å holde blodsukkeret stabilt og opprettholde energinivået."
+          }
+        ],
+        "level": "5"
+      },
+      {
+        "category": "Ernæring",
+        "title": "Vitaminer og mineraler",
+        "summary": "Denne leksjonen handler om betydningen av vitaminer og mineraler i kostholdet.",
+        "lecture": [
+        {
+            "subGoal": "Lære om forskjellige vitaminer og mineraler",
+            "goalDecription": "I denne leksjonen vil du lære om forskjellige vitaminer og mineraler, som vitamin C, vitamin D, jern og kalsium. Vi vil snakke om hvorfor disse næringsstoffene er viktige for kroppen din, og hvilke matvarer som er gode kilder til dem. Du vil oppdage at et variert kosthold er nøkkelen til å få nok vitaminer og mineraler."
+        },
+        {
+            "subGoal": "Forstå hvordan vitaminer og mineraler påvirker kroppens funksjoner",
+            "goalDecription": "I denne leksjonen vil du lære hvordan vitaminer og mineraler påvirker kroppens funksjoner. Vi vil snakke om hvordan vitaminer og mineraler er nødvendige for vekst, immunforsvar, energiomsetning og mange andre viktige prosesser i kroppen. Du vil oppdage at å spise variert og balansert vil bidra til å holde kroppen din frisk og i god form."
+        }
+        ],
+        "level": "6"
+        },
+        {
+        "category": "Teknikk",
+        "title": "Kutting og forberedelse av ingredienser",
+        "summary": "Denne leksjonen handler om viktige kutte- og forberedelsesteknikker i matlaging.",
+        "lecture": [
+        {
+            "subGoal": "Lære ulike kutte- og skjæreteknikker",
+            "goalDecription": "I denne leksjonen vil du lære ulike kutte- og skjæreteknikker, som terningkutting, strimling og hakking. Vi vil snakke om hvorfor det er viktig å mestre disse teknikkene for å kunne tilberede mat effektivt og trygt. Du vil oppdage at riktig kutting kan påvirke smak, tekstur og utseende på maten."
+        },
+        {
+            "subGoal": "Forstå betydningen av forberedelse av ingredienser",
+            "goalDecription": "I denne leksjonen vil du lære hvorfor forberedelse av ingredienser er viktig i matlaging. Vi vil snakke om hvordan å vaske, skrelle og dele ingredienser på riktig måte kan bidra til å sikre mattrygghet og optimal smak og tekstur. Du vil oppdage at god forberedelse er nøkkelen til å lykkes i kjøkkenet."
+        }
+        ],
+        "level": "6"
+    },
+    {
+        "category": "Teknikk",
+        "title": "Steking og baking",
+        "summary": "Denne leksjonen handler om grunnleggende steking og bakingsteknikker.",
+        "lecture": [
+          {
+            "subGoal": "Lære om forskjellen mellom steking og baking",
+            "goalDecription": "I denne leksjonen vil du lære forskjellen mellom steking og baking, og når du bruker hver teknikk. Vi vil snakke om hvordan steking gir en gylden og sprø overflate, mens baking gir en jevn og luftig konsistens. Du vil oppdage at begge teknikkene kan brukes til å tilberede deilige retter."
+          },
+          {
+            "subGoal": "Forstå viktige prinsipper for vellykket steking og baking",
+            "goalDecription": "I denne leksjonen vil du lære viktige prinsipper for vellykket steking og baking. Vi vil snakke om riktig temperatur, steketid, og hvordan du kan teste om maten er ferdig. Du vil oppdage at å følge oppskrifter og bruke riktige teknikker er nøkkelen til å oppnå gode resultater."
+          }
+        ],
+        "level": "7"
+      },
+      {
+        "category": "Teknikk",
+        "title": "Saus og smakstilsetninger",
+        "summary": "Denne leksjonen handler om kunsten å lage sauser og tilføre smak til retter.",
+        "lecture": [
+          {
+            "subGoal": "Lære ulike sauslagingsteknikker",
+            "goalDecription": "I denne leksjonen vil du lære ulike sauslagingsteknikker, som jevning, reduksjon og emulgering. Vi vil snakke om hvordan du kan lage sauser med forskjellige smaker og konsistenser, og hvordan du kan tilpasse sausen til retten du lager. Du vil oppdage at sauser kan være prikken over i-en i en god middag."
+          },
+          {
+            "subGoal": "Forstå viktigheten av smakstilsetninger",
+            "goalDecription": "I denne leksjonen vil du lære viktigheten av smakstilsetninger i matlaging. Vi vil snakke om forskjellige smakstilsetninger, som krydder, urter, sitrusfrukter og eddik, og hvordan de kan løfte smaken i rettene dine. Du vil oppdage at riktig bruk av smakstilsetninger kan gjøre en vanlig rett ekstraordinær."
+          }
+        ],
+        "level": "7"
+      },
+      {
+        "category": "Miljø",
+        "title": "Klimavennlig matlaging",
+        "summary": "Denne leksjonen handler om hvordan du kan lage mat på en klimavennlig måte.",
+        "lecture": [
+          {
+            "subGoal": "Lære om klimavennlige matvarer",
+            "goalDecription": "I denne leksjonen vil du lære om klimavennlige matvarer, som plantebaserte ingredienser, sesongbaserte grønnsaker og bærekraftig sjømat. Vi vil snakke om hvorfor disse matvarene er bedre for miljøet og hvordan du kan inkludere dem i kostholdet ditt. Du vil oppdage at du kan bidra til å redusere klimaavtrykket ditt gjennom matvalgene dine."
+          },
+          {
+            "subGoal": "Forstå metoder for å redusere matsvinn",
+            "goalDecription": "I denne leksjonen vil du lære metoder for å redusere matsvinn og utnytte maten på en bedre måte. Vi vil snakke om oppbevaringstips, gjenbruk av matrester og hvordan du kan lage smakfulle retter av ingredienser som vanligvis kastes. Du vil oppdage at du kan være en del av løsningen ved å være bevisst på matsvinn og utnytte ressursene på en smart måte."
+          }
+        ],
+        "level": "9"
+      },
+      {
+        "category": "Miljø",
+        "title": "Økologisk mat og lokalt landbruk",
+        "summary": "Denne leksjonen handler om økologisk mat og betydningen av lokalt landbruk.",
+        "lecture": [
+          {
+            "subGoal": "Lære om økologisk matproduksjon",
+            "goalDecription": "I denne leksjonen vil du lære om økologisk matproduksjon og hvordan det skiller seg fra konvensjonell matproduksjon. Vi vil snakke om økologiske prinsipper, som bruk av naturlig gjødsel og fravær av kjemiske sprøytemidler, og hvordan dette påvirker maten vi spiser. Du vil oppdage fordeler med økologisk mat for helsen din og miljøet."
+          },
+          {
+            "subGoal": "Forstå betydningen av lokalt landbruk",
+            "goalDecription": "I denne leksjonen vil du lære betydningen av lokalt landbruk og hvordan det kan støtte bærekraftig matproduksjon. Vi vil snakke om kortreist mat, støtte til lokale bønder og sesongbaserte matvarer. Du vil oppdage at å velge lokalt landbruk kan bidra til å redusere transportavstander, støtte lokalsamfunnet og sikre ferske og næringsrike matvarer."
+          }
+        ],
+        "level": "9"
+      },
+      {
+        "category": "Kosthold",
+        "title": "Allergivennlig matlaging",
+        "summary": "Denne leksjonen handler om allergivennlig matlaging og tilpasninger for ulike allergier.",
+        "lecture": [
+          {
+            "subGoal": "Lære om vanlige matallergier",
+            "goalDecription": "I denne leksjonen vil du lære om vanlige matallergier, som allergi mot melk, egg, nøtter, gluten og skalldyr. Vi vil snakke om symptomer på allergiske reaksjoner og hvordan du kan tilpasse oppskrifter for å unngå allergener. Du vil oppdage at det er mulig å lage deilige retter selv om du har allergier eller lager mat for noen med allergier."
+          },
+          {
+            "subGoal": "Forstå alternativer og erstatninger",
+            "goalDecription": "I denne leksjonen vil du lære om alternativer og erstatninger for vanlige allergener i matlaging. Vi vil snakke om plantebaserte alternativer, glutenfrie meltyper og andre ingredienser som kan brukes som erstatning. Du vil oppdage at det finnes mange muligheter for å tilpasse oppskrifter og lage mat som er trygg og velsmakende for alle."
+          }
+        ],
+        "level": "10"
+      },
+      {
+        "category": "Kosthold",
+        "title": "Balansert kosthold",
+        "summary": "Denne leksjonen handler om betydningen av et balansert kosthold for helse og velvære.",
+        "lecture": [
+          {
+            "subGoal": "Lære om de ulike matvaregruppene",
+            "goalDecription": "I denne leksjonen vil du lære om de ulike matvaregruppene og deres betydning for kroppen. Vi vil snakke om karbohydrater, proteiner, fettstoffer, vitaminer og mineraler, og hvorfor det er viktig å få i seg riktig balanse av næringsstoffer. Du vil oppdage at et balansert kosthold kan gi deg energi, styrke immunforsvaret og bidra til god helse."
+          },
+          {
+            "subGoal": "Forstå porsjonsstørrelser og spisevaner",
+            "goalDecription": "I denne leksjonen vil du lære om porsjonsstørrelser og viktigheten av gode spisevaner. Vi vil snakke om hvordan du kan spise variert, begrense inntaket av usunn mat og være oppmerksom på sult- og metthetsfølelse. Du vil oppdage at bevissthet rundt spisevaner og porsjonskontroll kan hjelpe deg å opprettholde et balansert kosthold."
+          }
+        ],
+        "level": "10"
+      },
+      {
+        "category": "Matkultur",
+        "title": "Asiatisk matlaging",
+        "summary": "Denne leksjonen handler om asiatisk matlaging og smaker.",
+        "lecture": [
+          {
+            "subGoal": "Lære om kjennetegn ved asiatisk mat",
+            "goalDecription": "I denne leksjonen vil du lære om kjennetegn ved asiatisk mat, som bruken av ris, nudler, soyasaus og eksotiske krydder. Vi vil snakke om ulike asiatiske kjøkken, som kinesisk, japansk, thai og indisk, og deres unike smaker. Du vil oppdage spennende ingredienser og smakskombinasjoner som vil inspirere deg til å lage autentiske asiatisk retter."
+          },
+          {
+            "subGoal": "Forstå grunnleggende teknikker i asiatisk matlaging",
+            "goalDecription": "I denne leksjonen vil du lære grunnleggende teknikker i asiatisk matlaging, som woksteking, dampkoking, bruk av kokosmelk og fermentering. Vi vil snakke om viktigheten av balanse mellom søtt, surt, salt og sterkt i asiatiske retter. Du vil oppdage at asiatisk matlaging kan være en spennende og smaksrik opplevelse."
+          }
+        ],
+        "level": "8"
+      },
+      {
+        "category": "Matkultur",
+        "title": "Middelhavsmatlaging",
+        "summary": "Denne leksjonen handler om middelhavsmatlaging og sunne matvaner.",
+        "lecture": [
+          {
+            "subGoal": "Lære om sunne matvaner i Middelhavskostholdet",
+            "goalDecription": "I denne leksjonen vil du lære om sunne matvaner i Middelhavskostholdet og hvorfor det regnes som en av verdens sunneste kostholdsformer. Vi vil snakke om bruk av olivenolje, ferske grønnsaker, fullkorn og fisk, og hvordan dette kan bidra til god helse. Du vil oppdage deilige og næringsrike oppskrifter inspirert av Middelhavsmat."
+          },
+          {
+            "subGoal": "Forstå grunnleggende ingredienser og smaker",
+            "goalDecription": "I denne leksjonen vil du lære om grunnleggende ingredienser og smaker i Middelhavsmatlaging, som tomater, aubergine, sitron, hvitløk og urter. Vi vil snakke om bruken av krydder og hvordan man kan lage enkle og smakfulle retter. Du vil oppdage at Middelhavsmatlaging handler om enkelhet, friskhet og gode råvarer."
+          }
+        ],
+        "level": "8"
+      },
+      {
+        "category": "Baking",
+        "title": "Sukkerfri bakst",
+        "summary": "Denne leksjonen handler om sukkerfri baking og alternative søtningsmidler.",
+        "lecture": [
+          {
+            "subGoal": "Lære om alternative søtningsmidler",
+            "goalDecription": "I denne leksjonen vil du lære om alternative søtningsmidler som kan brukes i sukkerfri baking. Vi vil snakke om naturlige søtstoffer som honning, agavesirup og stevia, samt sukkeralkoholer som xylitol og erytritol. Du vil oppdage hvordan disse søtningsmidlene kan erstatte sukker i bakeoppskrifter uten å gå på kompromiss med smak og tekstur."
+          },
+          {
+            "subGoal": "Forstå sunne ingredienser i sukkerfri bakst",
+            "goalDecription": "I denne leksjonen vil du lære om sunne ingredienser som kan brukes i sukkerfri bakst, som fullkornsmel, nøtter, frø og frukt. Vi vil snakke om hvordan disse ingrediensene bidrar til bedre næringsinnhold og fiberinnhold i bakverk. Du vil oppdage at sukkerfri bakst kan være like delikat og smakfull som vanlig bakst."
+          }
+        ],
+        "level": "7"
+      },
+      {
+        "category": "Baking",
+        "title": "Glutenfri bakst",
+        "summary": "Denne leksjonen handler om glutenfri bakst og alternative meltyper.",
+        "lecture": [
+          {
+            "subGoal": "Lære om glutenintoleranse og cøliaki",
+            "goalDecription": "I denne leksjonen vil du lære om glutenintoleranse og cøliaki, og hvordan det påvirker valg av ingredienser i bakst. Vi vil snakke om vanlige glutenfrie meltyper som ris, mais, bokhvete og havremel. Du vil oppdage at det er mulig å lage deilige og saftige bakverk uten bruk av glutenholdige ingredienser."
+          },
+          {
+            "subGoal": "Forstå teknikker og tilpasninger i glutenfri bakst",
+            "goalDecription": "I denne leksjonen vil du lære teknikker og tilpasninger som kan gjøres i glutenfri bakst for å oppnå gode resultater. Vi vil snakke om bruk av bindemidler, som egg og xanthan gum, samt tilpasninger i oppskrifter for å unngå tørre og smuldrete bakverk. Du vil oppdage at glutenfri bakst kan være like velsmakende og delikat som vanlig bakst."
+          }
+        ],
+        "level": "7"
+      },
+      {
+        "category": "Enkelt",
+        "title": "Matlaging med farger",
+        "summary": "Denne leksjonen handler om matlaging med fargerike ingredienser og presentasjon.",
+        "lecture": [
+          {
+            "subGoal": "Lære om fargerike matvarer og deres helsefordeler",
+            "goalDecription": "I denne leksjonen vil du lære om fargerike matvarer og deres helsefordeler. Vi vil snakke om fargerike grønnsaker og frukt som er rike på ulike næringsstoffer og antioksidanter. Du vil oppdage hvordan man kan bruke fargerike ingredienser til å lage vakre og næringsrike retter."
+          },
+          {
+            "subGoal": "Forstå presentasjon og matpynting",
+            "goalDecription": "I denne leksjonen vil du lære om presentasjon og matpynting for å gjøre maten mer attraktiv for barn. Vi vil snakke om enkel matpynting med fargerike grønnsaker, frukt og urter. Du vil oppdage hvordan man kan gjøre matlaging til en kreativ og morsom opplevelse for barna."
+          }
+        ],
+        "level": "3"
+      },
+      {
+        "category": "Hverdagsmat",
+        "title": "Rask og enkel middag",
+        "summary": "Denne leksjonen handler om å lage rask og enkel middag på travle hverdager.",
+        "lecture": [
+          {
+            "subGoal": "Lære om raske og sunne oppskrifter",
+            "goalDecription": "I denne leksjonen vil du lære om raske og sunne oppskrifter som kan lages på travle hverdager. Vi vil snakke om bruk av ferdigprodukter, frosne grønnsaker og raske tilberedningsmetoder. Du vil oppdage hvordan du kan lage næringsrike middagsretter på kort tid uten å gå på kompromiss med smak og kvalitet."
+          },
+          {
+            "subGoal": "Forstå tidsbesparende matlagingstips og triks",
+            "goalDecription": "I denne leksjonen vil du lære tidsbesparende matlagingstips og triks for å effektivisere matlagingen på travle hverdager. Vi vil snakke om forberedelser på forhånd, planlegging av måltider og bruk av kjøkkenredskaper som gjør matlagingen raskere og enklere. Du vil oppdage hvordan du kan organisere og optimere matlagingen for å få mer tid til overs i hverdagen."
+          }
+        ],
+        "level": "4"
+      },
+      {
+        "category": "Hverdagsmat",
+        "title": "Restemat og matvaresvinn",
+        "summary": "Denne leksjonen handler om å lage nye retter av restemat og redusere matvaresvinn.",
+        "lecture": [
+          {
+            "subGoal": "Lære om kreativ bruk av restemat",
+            "goalDecription": "I denne leksjonen vil du lære kreativ bruk av restemat for å lage nye og spennende retter. Vi vil snakke om hvordan man kan bruke rester av kjøtt, grønnsaker, ris og pasta til å lage smakfulle gryteretter, supper, omeletter og salater. Du vil oppdage hvordan du kan redusere matsvinn og samtidig lage velsmakende måltider."
+          },
+          {
+            "subGoal": "Forstå metoder for å redusere matvaresvinn",
+            "goalDecription": "I denne leksjonen vil du lære metoder for å redusere matvaresvinn i hjemmet. Vi vil snakke om planlegging av innkjøp, riktig oppbevaring av matvarer og bruk av holdbarhetsdatoer. Du vil oppdage hvordan du kan bidra til å bevare matressurser og spare penger ved å redusere mengden mat som kastes."
+          }
+        ],
+        "level": "4"
+      },
+      {
+        "category": "Kosthold",
+        "title": "Glutenfri matlaging",
+        "summary": "Denne leksjonen handler om glutenfri matlaging for personer med glutenintoleranse eller cøliaki.",
+        "lecture": [
+          {
+            "subGoal": "Lære om glutenfrie ingredienser og erstatninger",
+            "goalDecription": "I denne leksjonen vil du lære om glutenfrie ingredienser og erstatninger som kan brukes i matlagingen. Vi vil snakke om alternative meltyper som bokhvete, ris, mais og havre, samt bindemidler og fortykningsmidler. Du vil oppdage hvordan du kan tilpasse oppskrifter til å være glutenfrie uten å gå på kompromiss med smak og tekstur."
+          },
+          {
+            "subGoal": "Forstå hvordan man kan unngå krysskontaminering",
+            "goalDecription": "I denne leksjonen vil du lære hvordan man kan unngå krysskontaminering av gluten i matlagingen. Vi vil snakke om viktigheten av å ha separate kjøkkenredskaper og rene arbeidsflater, samt informasjon om produkter som kan inneholde spor av gluten. Du vil oppdage hvordan du kan lage trygg og glutenfri mat for personer med glutenintoleranse eller cøliaki."
+          }
+        ],
+        "level": "7"
+      },
+      {
+        "category": "Kosthold",
+        "title": "Vegetarisk og vegansk mat",
+        "summary": "Denne leksjonen handler om vegetarisk og vegansk matlaging og ernæring.",
+        "lecture": [
+          {
+            "subGoal": "Lære om næringsrike plantebaserte ingredienser",
+            "goalDecription": "I denne leksjonen vil du lære om næringsrike plantebaserte ingredienser som kan brukes i vegetarisk og vegansk matlaging. Vi vil snakke om ulike typer belgfrukter, nøtter, frø, grønnsaker og kornprodukter. Du vil oppdage hvordan man kan lage smakfulle og næringsrike retter uten bruk av animalske produkter."
+          },
+          {
+            "subGoal": "Forstå hvordan man kan sikre tilstrekkelig ernæring",
+            "goalDecription": "I denne leksjonen vil du lære hvordan man kan sikre tilstrekkelig ernæring i vegetarisk og vegansk kosthold. Vi vil snakke om viktige næringsstoffer som protein, jern, kalsium, omega-3-fettsyrer og vitamin B12, samt gode kilder til disse næringsstoffene. Du vil oppdage hvordan man kan planlegge et balansert og næringsrikt vegetarisk eller vegansk kosthold."
+          }
+        ],
+        "level": "7"
+      },
+      {
+        "category": "Matkultur",
+        "title": "Internasjonale smaker",
+        "summary": "Denne leksjonen handler om å utforske og lage mat med internasjonale smaker.",
+        "lecture": [
+          {
+            "subGoal": "Lære om ulike internasjonale kjøkken og deres signaturretter",
+            "goalDecription": "I denne leksjonen vil du lære om ulike internasjonale kjøkken og deres signaturretter. Vi vil utforske smaker og teknikker fra kjøkken som italiensk, meksikansk, indisk, thailandsk og mer. Du vil oppdage nye ingredienser, krydder og tilberedningsmetoder som vil inspirere deg til å lage autentiske retter fra forskjellige deler av verden."
+          },
+          {
+            "subGoal": "Forstå kulturelle aspekter ved matlaging og spising",
+            "goalDecription": "I denne leksjonen vil du lære om kulturelle aspekter ved matlaging og spising. Vi vil snakke om tradisjoner, matvaner og ritualer knyttet til ulike kulturer. Du vil oppdage hvordan mat kan være en kilde til kulturell utveksling og berikelse, og hvordan du kan utforske og respektere ulike matkulturer gjennom matlaging og spising."
+          }
+        ],
+        "level": "7"
+      },
+      {
+        "category": "Matkultur",
+        "title": "Tradisjonell norsk mat",
+        "summary": "Denne leksjonen handler om tradisjonell norsk matlaging og norske matretter.",
+        "lecture": [
+          {
+            "subGoal": "Lære om norske mattradisjoner og lokale spesialiteter",
+            "goalDecription": "I denne leksjonen vil du lære om norske mattradisjoner og lokale spesialiteter. Vi vil utforske kjente norske retter som rakfisk, lutefisk, fårikål og lutefisk. Du vil oppdage historien bak disse rettene, typiske ingredienser og tilberedningsmetoder. Du vil også lære å lage noen av disse tradisjonelle norske rettene selv."
+          },
+          {
+            "subGoal": "Forstå betydningen av sesongbaserte ingredienser i norsk matlaging",
+            "goalDecription": "I denne leksjonen vil du lære om betydningen av sesongbaserte ingredienser i norsk matlaging. Vi vil snakke om hvordan det norske klimaet påvirker tilgjengeligheten av råvarer og hvordan man kan tilpasse oppskrifter etter sesong. Du vil oppdage gleden ved å lage mat med lokale og ferske ingredienser som er i tråd med norske mattradisjoner."
+          }
+        ],
+        "level": "6"
+      },
+      {
+        "category": "Teknikk",
+        "title": "Baking og dessertlaging",
+        "summary": "Denne leksjonen handler om baking og dessertlaging.",
+        "lecture": [
+          {
+            "subGoal": "Lære om grunnleggende bakingsteknikker og ingredienser",
+            "goalDecription": "I denne leksjonen vil du lære grunnleggende bakingsteknikker og om ulike typer bakverk. Vi vil snakke om oppskriftsfølging, måling av ingredienser, deigblandinger, heving, steking og mer. Du vil oppdage hvordan du kan lage deilige brød, kaker, cookies og annet bakverk hjemme."
+          },
+          {
+            "subGoal": "Utforske dessertlaging og kreativ presentasjon",
+            "goalDecription": "I denne leksjonen vil du utforske dessertlaging og kreativ presentasjon av desserter. Vi vil snakke om ulike typer desserter som puddinger, kaker, fruktbaserte desserter og mer. Du vil lære om dekorasjonsteknikker, bruk av sauser og tilbehør for å skape visuelt tiltalende og smakfull dessertopplevelse."
+          }
+        ],
+        "level": "5"
+      },
+      {
+        "category": "Teknikk",
+        "title": "Grilling og utendørs matlaging",
+        "summary": "Denne leksjonen handler om grilling og matlaging utendørs.",
+        "lecture": [
+          {
+            "subGoal": "Lære om grunnleggende grillingsteknikker og marinering",
+            "goalDecription": "I denne leksjonen vil du lære grunnleggende grillingsteknikker og marinering. Vi vil snakke om ulike grillmetoder, forberedelse av grillen, kontroll av varme, marinader og krydder for å forbedre smaken. Du vil oppdage hvordan du kan grille kjøtt, fisk, grønnsaker og mer på en enkel og velsmakende måte."
+          },
+          {
+            "subGoal": "Utforske utendørs matlagingsteknikker som bålmat og campingmat",
+            "goalDecription": "I denne leksjonen vil du utforske utendørs matlagingsteknikker som bålmat og campingmat. Vi vil snakke om hvordan man kan lage mat over bål, bruke primus og improvisere kjøkkenutstyr utendørs. Du vil oppdage gleden ved å tilberede mat i naturen og lære noen praktiske tips og triks for utendørs matlaging."
+          }
+        ],
+        "level": "6"
+      },
+      {
+        "category": "Kosthold",
+        "title": "Allergivennlig matlaging",
+        "summary": "Denne leksjonen handler om allergivennlig matlaging og tilpassede oppskrifter.",
+        "lecture": [
+          {
+            "subGoal": "Lære om vanlige matallergier og intoleranser",
+            "goalDecription": "I denne leksjonen vil du lære om vanlige matallergier og intoleranser som melk, egg, gluten, nøtter og mer. Vi vil snakke om symptomer, kryssreaksjoner og hvordan man kan erstatte ingredienser for å lage allergivennlig mat. Du vil oppdage spennende oppskrifter og tips for å tilpasse matlagingen til ulike kostbehov."
+          },
+          {
+            "subGoal": "Utforske sunne og smakfulle alternativer for allergivennlig mat",
+            "goalDecription": "I denne leksjonen vil du utforske sunne og smakfulle alternativer for allergivennlig mat. Vi vil snakke om bruk av alternative ingredienser og teknikker for å lage mat som er fri for vanlige allergener. Du vil oppdage deilig allergivennlig bakverk, retter og snacks som kan nytes av alle, uavhengig av allergier."
+          }
+        ],
+        "level": "8"
+      },
+      {
+        "category": "Kreativitet",
+        "title": "Matpresentasjon og tallerkenkunst",
+        "summary": "Denne leksjonen handler om matpresentasjon og tallerkenkunst.",
+        "lecture": [
+          {
+            "subGoal": "Lære om prinsipper for matpresentasjon og estetikk",
+            "goalDecription": "I denne leksjonen vil du lære om prinsipper for matpresentasjon og estetikk. Vi vil snakke om fargebruk, tekstur, balanse og proporsjoner i matpresentasjon. Du vil oppdage hvordan du kan gjøre maten din visuelt tiltalende og invitere til en flott spiseopplevelse."
+          },
+          {
+            "subGoal": "Utforske tallerkenkunst og kreative uttrykk med mat",
+            "goalDecription": "I denne leksjonen vil du utforske tallerkenkunst og kreative uttrykk med mat. Vi vil snakke om ulike teknikker som matforming, sausmaling, garnityr og dekorasjon. Du vil lære hvordan du kan skape imponerende og unike matkunstverk som vil glede både øynene og smaksløkene."
+          }
+        ],
+        "level": "7"
+      },
+      {
+        "category": "Sikkerhet",
+        "title": "Kjøkkensikkerhet",
+        "summary": "Denne leksjonen handler om kjøkkensikkerhet og viktige forholdsregler i kjøkkenet.",
+        "lecture": [
+          {
+            "subGoal": "Lære om grunnleggende kjøkkensikkerhet og hygiene",
+            "goalDecription": "I denne leksjonen vil du lære om grunnleggende kjøkkensikkerhet og hygiene. Vi vil dekke viktige forholdsregler som riktig bruk av kniver, beskyttelse av hender, bruk av skjærebrett, og hvordan man unngår krysskontaminering av matvarer. Du vil oppdage betydningen av renslighet og personlig hygiene i matlaging."
+          },
+          {
+            "subGoal": "Utforske brannsikkerhet og riktig bruk av kjøkkenutstyr",
+            "goalDecription": "I denne leksjonen vil du utforske brannsikkerhet og riktig bruk av kjøkkenutstyr. Vi vil snakke om hvordan du forebygger branner i kjøkkenet, slukking av branner, og hva du skal gjøre i nødstilfeller. Du vil også lære om riktig bruk av ovner, komfyrer, og elektriske apparater for å unngå farlige situasjoner."
+          },
+          {
+            "subGoal": "Lære om trygg matoppbevaring og holdbarhet",
+            "goalDecription": "I denne leksjonen vil du lære om trygg matoppbevaring og holdbarhet. Vi vil snakke om riktig temperaturkontroll, oppbevaring av mat i kjøleskap og fryser, samt hvordan du gjenkjenner tegn på dårlig mat. Du vil oppdage viktigheten av å unngå matforgiftning og hvordan du tar vare på maten din på en trygg måte."
+          }
+        ],
+        "level": "4"
+      },
+      {
+        "category": "Hygiene",
+        "title": "Kjøkkenhygiene",
+        "summary": "Denne leksjonen handler om kjøkkenhygiene og viktigheten av god hygiene under matlaging.",
+        "lecture": [
+          {
+            "subGoal": "Lære om grunnleggende kjøkkenhygiene",
+            "goalDecription": "I denne leksjonen vil du lære om grunnleggende kjøkkenhygiene. Vi vil dekke viktige aspekter som håndvask, rengjøring av kjøkkenutstyr, bruk av rene kluter og oppvaskhåndklær, samt rengjøring av arbeidsflater. Du vil oppdage betydningen av å opprettholde en ren og trygg matlagingssone."
+          },
+          {
+            "subGoal": "Utforske mattrygghet og forhindring av matbårne sykdommer",
+            "goalDecription": "I denne leksjonen vil du utforske mattrygghet og forhindring av matbårne sykdommer. Vi vil snakke om riktig temperaturkontroll, separering av rå og ferdig tilberedt mat, oppbevaring av matrester, og hvordan du unngår krysskontaminering. Du vil lære viktigheten av å håndtere mat på en sikker og hygienisk måte for å forhindre sykdom."
+          },
+          {
+            "subGoal": "Lære om personlig hygiene og matlaging",
+            "goalDecription": "I denne leksjonen vil du lære om personlig hygiene og matlaging. Vi vil snakke om betydningen av å ha rene klær, binde opp håret, unngå smykker og neglelakk under matlaging, og generell håndhygiene. Du vil oppdage hvordan personlig hygiene spiller en viktig rolle i matlaging for å sikre trygg og sunn mat."
+          }
+        ],
+        "level": "3"
+      }
+      
+]
