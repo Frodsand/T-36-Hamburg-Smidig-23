@@ -1,5 +1,5 @@
 const express = require('express')
-//const User = require('../models/userModel')
+const User = require('../models/usersModel')
 
 
 const router = express.Router()
@@ -23,5 +23,11 @@ router.post('/', (req, res) => {
 router.delete('/:id', (req, res) => {
     res.json({mssg: 'DELETE a user'})
 })
+
+// UPDATE a user
+router.patch('/:id', (req, res) => {
+    res.json({mssg: 'DELETE a user'})
+})
+
 
 module.exports = router

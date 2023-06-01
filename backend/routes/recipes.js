@@ -1,4 +1,5 @@
 const express = require('express')
+const Recipe = require('../models/recipesModel')
 
 const router = express.Router()
 
@@ -12,7 +13,7 @@ router.get('/:id', (req, res) => {
     res.json({mssg: 'GET a single recipe'})
 })
 
-/* // POST a new recipe
+ // POST a new recipe
 router.post('/', (req, res) => {
     res.json({mssg: 'POST a single recipe'})
 })
@@ -25,7 +26,7 @@ router.delete('/:id', (req, res) => {
 // UPDATE a recipe
 router.patch('/:id', (req, res) => {
     res.json({mssg: 'UPDATE a recipe'})
-}) */
+})
 
 
 module.exports = router

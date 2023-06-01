@@ -1,4 +1,5 @@
 const express = require('express')
+const SemesterPlan = require('../models/semesterPlansModel')
 
 const router = express.Router()
 
