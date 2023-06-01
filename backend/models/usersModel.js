@@ -17,7 +17,7 @@ const usersSchema = new Schema({
     },
     semesterplan:{
         type: [],
-        required: true
+        //required: true <- Should not be required?
     }
 
 })
