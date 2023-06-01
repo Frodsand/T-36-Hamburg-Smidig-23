@@ -1,0 +1,980 @@
+{
+    "recipes": [
+    {
+    "name": "Fruktsalat",
+    "description": "En frisk og fargerik fruktsalat som er perfekt som dessert eller en sunn snack.",
+    "instructions": "1. Vask og skjær ulike frukter i biter. 2. Bland alle fruktene i en bolle. 3. Server og nyt!",
+    "ingredients": [
+    {
+    "name": "Epler",
+    "amount": 2,
+    "unit": "stk"
+    },
+    {
+    "name": "Appelsiner",
+    "amount": 2,
+    "unit": "stk"
+    },
+    {
+    "name": "Bananer",
+    "amount": 2,
+    "unit": "stk"
+    },
+    {
+    "name": "Druer",
+    "amount": 1,
+    "unit": "kurv"
+    }
+    ],
+    "allergies": [],
+    "image": "frukt_salat.jpg"
+    },
+    {
+    "name": "Grønnsakswraps",
+    "description": "Sunn og smakfull lunsj med massevis av friske grønnsaker i en innpakket tortilla.",
+    "instructions": "1. Vask og skjær grønnsakene i strimler. 2. Varm tortillaene i en panne. 3. Legg grønnsakene på tortillaene og brett dem sammen. 4. Server og nyt!",
+    "ingredients": [
+    {
+    "name": "Agurk",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Gulrot",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Tomat",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Paprika",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Salatblader",
+    "amount": 4,
+    "unit": "stk"
+    },
+    {
+    "name": "Tortilla",
+    "amount": 4,
+    "unit": "stk"
+    }
+    ],
+    "allergies": [],
+    "image": "gronnsaks_wraps.jpg"
+    },
+    {
+    "name": "Mini pizza med fullkornsbunn",
+    "description": "Små, deilige pizzaer med sunn fullkornsbunn og et utvalg av dine favorittfyll.",
+    "instructions": "1. Lag fullkornsbunn ved å blande mel, gjær, olivenolje, salt og vann. La deigen heve. 2. Kjevle ut deigen og form små pizzaer. 3. Tilsett ønsket saus og fyll. 4. Stek i ovnen til osten er smeltet og bunnen er sprø. 5. Server og nyt!",
+    "ingredients": [
+    {
+    "name": "Hvetemel",
+    "amount": 250,
+    "unit": "g"
+    },
+    {
+    "name": "Gjær",
+    "amount": 7,
+    "unit": "g"
+    },
+    {
+    "name": "Olivenolje",
+    "amount": 2,
+    "unit": "ss"
+    },
+    {
+    "name": "Salt",
+    "amount": 1,
+    "unit": "ts"
+    },
+    {
+    "name": "Vann",
+    "amount": 150,
+    "unit": "ml"
+    },
+    {
+    "name": "Tomatsaus",
+    "amount": 4,
+    "unit": "ss"
+    },
+    {
+    "name": "Revet ost",
+    "amount": 200,
+    "unit": "g"
+    },
+    {
+    "name": "Skinke",
+    "amount": 100,
+    "unit": "g"
+    },
+    {
+    "name": "Paprika",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Sopp",
+    "amount": 100,
+    "unit": "g"
+    }
+    ],
+    "allergies": [
+    "Hvete"
+    ],
+    "image": "mini_pizza.jpg"
+    },
+    {
+    "name": "Guacamole med bakte tortillachips",
+    "description": "En klassisk guacamole oppskrift med sprø, hjemmelagde tortillachips.",
+    "instructions": "1. Mos avokadoene og tilsett finhakket løk, hvitløk, tomat, og limejuice. 2. Smak til med salt og pepper. 3. Skjær tortillaene i trekanter og legg dem på en bakeplate. 4. Bak i ovnen til chipsene er sprø og gyldne. 5. Server guacamolen med de bakte tortillachipsene.",
+    "ingredients": [
+    {
+    "name": "Avokado",
+    "amount": 2,
+    "unit": "stk"
+    },
+    {
+    "name": "Løk",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Hvitløksfedd",
+    "amount": 2,
+    "unit": "stk"
+    },
+    {
+    "name": "Tomat",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Lime",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Tortilla",
+    "amount": 4,
+    "unit": "stk"
+    }
+    ],
+    "allergies": [],
+    "image": "guacamole.jpg"
+    },
+    {
+    "name": "Hummus med gulrot- og agurkstaver",
+    "description": "Enkelt og næringsrikt, server hummus med friske grønnsaker som snack eller som en del av en større måltid.",
+    "instructions": "1. Hell kikerter, hvitløk, sitronsaft, tahini, olivenolje, spisskummen, og salt i en blender eller food processor. 2. Kjør til du får en jevn konsistens. 3. Skrell gulrøtter og agurker, og skjær dem i staver. 4. Server hummus med gulrot- og agurkstaver.",
+    "ingredients": [
+    {
+    "name": "Kikerter",
+    "amount": 400,
+    "unit": "g"
+    },
+    {
+    "name": "Hvitløksfedd",
+    "amount": 2,
+    "unit": "stk"
+    },
+    {
+    "name": "Sitronsaft",
+    "amount": 2,
+    "unit": "ss"
+    },
+    {
+    "name": "Tahini",
+    "amount": 2,
+    "unit": "ss"
+    },
+    {
+    "name": "Olivenolje",
+    "amount": 2,
+    "unit": "ss"
+    },
+    {
+    "name": "Spisskummen",
+    "amount": 1,
+    "unit": "ts"
+    },
+    {
+    "name": "Salt",
+    "amount": 1,
+    "unit": "ts"
+    },
+    {
+    "name": "Gulrot",
+    "amount": 2,
+    "unit": "stk"
+    },
+    {
+    "name": "Agurk",
+    "amount": 1,
+    "unit": "stk"
+    }
+    ],
+    "allergies": [],
+    "image": "hummus.jpg"
+    },
+    {
+    "name": "Omelett med grønnsaker",
+    "description": "En rask og enkel omelett med et utvalg av sunne grønnsaker.",
+    "instructions": "1. Visp sammen eggene med litt salt og pepper. 2. Varm opp en stekepanne med olje og tilsett de hakkede grønnsakene. 3. Stek grønnsakene til de er møre. 4. Hell eggemassen over grønnsakene og stek omeletten til den er fast. 5. Server og nyt!",
+    "ingredients": [
+    {
+    "name": "Egg",
+    "amount": 3,
+    "unit": "stk"
+    },
+    {
+    "name": "Paprika",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Tomat",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Spinat",
+    "amount": 50,
+    "unit": "g"
+    },
+    {
+    "name": "Salt",
+    "amount": 1,
+    "unit": "klype"
+    },
+    {
+    "name": "Pepper",
+    "amount": 1,
+    "unit": "klype"
+    }
+    ],
+    "allergies": [
+    "Egg"
+    ],
+    "image": "omelett.jpg"
+    },
+    {
+    "name": "Kyllingnudelsuppe",
+    "description": "En varmende og næringsrik suppe med saftig kylling og smakfulle nudler.",
+    "instructions": "1. Kok opp kyllingbuljong i en stor kjele. 2. Tilsett kyllingbryst og kok til det er gjennomstekt. 3. Ta ut kyllingen, la den avkjøles litt og riv den i biter. 4. Tilsett nudler i buljongen og kok til de er møre. 5. Tilsett kyllingbitene og grønnsakene. 6. La suppen koke i noen minutter til grønnsakene er møre. 7. Server og nyt!",
+    "ingredients": [
+    {
+    "name": "Kyllingbuljong",
+    "amount": 1,
+    "unit": "l"
+    },
+    {
+    "name": "Kyllingbryst",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Nudler",
+    "amount": 100,
+    "unit": "g"
+    },
+    {
+    "name": "Gulrot",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Selleri",
+    "amount": 1,
+    "unit": "stilk"
+    },
+    {
+    "name": "Løk",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Hvitløksfedd",
+    "amount": 2,
+    "unit": "stk"
+    },
+    {
+    "name": "Salt",
+    "amount": 1,
+    "unit": "ts"
+    },
+    {
+    "name": "Pepper",
+    "amount": 1,
+    "unit": "klype"
+    }
+    ],
+    "allergies": [],
+    "image": "kyllingnudelsuppe.jpg"
+    },
+    {
+    "name": "Tofu stir-fry med ris",
+    "description": "En smakfull og mettende tofu stir-fry servert med dampet ris.",
+    "instructions": "1. Kutt tofu i terninger og mariner med soyasaus, sesamolje og ingefær. 2. Varm opp olje i en stekepanne og tilsett tofu. Stek til den er gyllenbrun. 3. Tilsett grønnsakene og stek videre til de er møre. 4. Kok ris etter anvisning på pakken. 5. Server tofu stir-fry med dampet ris.",
+    "ingredients": [
+    {
+    "name": "Tofu",
+    "amount": 200,
+    "unit": "g"
+    },
+    {
+    "name": "Soyasaus",
+    "amount": 2,
+    "unit": "ss"
+    },
+    {
+    "name": "Sesamolje",
+    "amount": 1,
+    "unit": "ts"
+    },
+    {
+    "name": "Ingefær",
+    "amount": 1,
+    "unit": "ts"
+    },
+    {
+    "name": "Olje",
+    "amount": 2,
+    "unit": "ss"
+    },
+    {
+    "name": "Brokkoli",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Gulrot",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Paprika",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Ris",
+    "amount": 1,
+    "unit": "dl"
+    }
+    ],
+    "allergies": [
+    "Soya"
+    ],
+    "image": "tofu_stir_fry.jpg"
+    },
+    {
+    "name": "Mini kjøttboller med tomatsaus",
+    "description": "Små og saftige kjøttboller servert med en deilig hjemmelaget tomatsaus.",
+    "instructions": "1. Bland kjøttdeig med brødrasp, egg, finhakket løk, hvitløk, salt og pepper. 2. Form små kjøttboller og stek dem i olje til de er gjennomstekte. 3. Lag tomatsaus ved å steke løk og hvitløk i olje, tilsett tomatsaus, sukker, salt og pepper. 4. La sausen småkoke i noen minutter. 5. Server de små kjøttbollene med tomatsaus.",
+    "ingredients": [
+    {
+    "name": "Kjøttdeig",
+    "amount": 400,
+    "unit": "g"
+    },
+    {
+    "name": "Brødrasp",
+    "amount": 2,
+    "unit": "ss"
+    },
+    {
+    "name": "Egg",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Løk",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Hvitløksfedd",
+    "amount": 2,
+    "unit": "stk"
+    },
+    {
+    "name": "Salt",
+    "amount": 1,
+    "unit": "ts"
+    },
+    {
+    "name": "Pepper",
+    "amount": 1,
+    "unit": "klype"
+    },
+    {
+    "name": "Olje",
+    "amount": 2,
+    "unit": "ss"
+    },
+    {
+    "name": "Tomatsaus",
+    "amount": 400,
+    "unit": "g"
+    },
+    {
+    "name": "Sukker",
+    "amount": 1,
+    "unit": "ts"
+    }
+    ],
+    "allergies": [
+    "Egg"
+    ],
+    "image": "mini_kjottboller.jpg"
+    },
+    {
+    "name": "Gresk salat med fetaost",
+    "description": "En frisk og smakfull salat med fetaost, oliven og solmodne tomater.",
+    "instructions": "1. Kutt tomater og agurk i terninger, skjær rødløk i tynne skiver og del oliven i to. 2. Bland sammen grønnsakene i en bolle. 3. Dryss over fetaost og oregano. 4. Hell over olivenolje og sitronsaft. 5. Bland godt sammen og server.",
+    "ingredients": [
+    {
+    "name": "Tomat",
+    "amount": 2,
+    "unit": "stk"
+    },
+    {
+    "name": "Agurk",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Rødløk",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Oliven",
+    "amount": 100,
+    "unit": "g"
+    },
+    {
+    "name": "Fetaost",
+    "amount": 100,
+    "unit": "g"
+    },
+    {
+    "name": "Oregano",
+    "amount": 1,
+    "unit": "ts"
+    },
+    {
+    "name": "Olivenolje",
+    "amount": 2,
+    "unit": "ss"
+    },
+    {
+    "name": "Sitronsaft",
+    "amount": 2,
+    "unit": "ss"
+    }
+    ],
+    "allergies": [],
+    "image": "gresk_salat.jpg"
+    },
+    {
+    "name": "Sushi-ruller med avocado og agurk",
+    "description": "Delikate sushi-ruller fylt med frisk avocado og sprø agurk.",
+    "instructions": "1. Legg et noriark på en sushimatte og fukt det med vann. 2. Fordel ris jevnt over noriarket og legg avocado og agurkstrimler på toppen. 3. Rull sushien stramt sammen ved hjelp av sushimatten. 4. Skjær rullen i skiver med en skarp kniv. 5. Server med soyasaus og wasabi.",
+    "ingredients": [
+    {
+    "name": "Noriark",
+    "amount": 4,
+    "unit": "stk"
+    },
+    {
+    "name": "Sushi-ris",
+    "amount": 2,
+    "unit": "dl"
+    },
+    {
+    "name": "Avocado",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Agurk",
+    "amount": 1,
+    "unit": "stk"
+    }
+    ],
+    "allergies": [],
+    "image": "sushi.jpg"
+    },
+    {
+    "name": "Linsegryte",
+    "description": "En mettende og smakfull linsegryte med et hint av krydder.",
+    "instructions": "1. Varm opp olje i en gryte og tilsett løk, hvitløk og ingefær. 2. Stek til løken er myk. 3. Tilsett krydderne og la det steke i noen sekunder. 4. Tilsett linser, tomater og grønnsaksbuljong. 5. Kok opp og la det småkoke i 20-25 minutter til linser er møre. 6. Server linsegryten med ris eller brød.",
+    "ingredients": [
+    {
+    "name": "Olje",
+    "amount": 2,
+    "unit": "ss"
+    },
+    {
+    "name": "Løk",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Hvitløksfedd",
+    "amount": 2,
+    "unit": "stk"
+    },
+    {
+    "name": "Ingefær",
+    "amount": 1,
+    "unit": "ts"
+    },
+    {
+    "name": "Spisskummen",
+    "amount": 1,
+    "unit": "ts"
+    },
+    {
+    "name": "Koriander",
+    "amount": 1,
+    "unit": "ts"
+    },
+    {
+    "name": "Gurkemeie",
+    "amount": 1,
+    "unit": "ts"
+    },
+    {
+    "name": "Linser",
+    "amount": 200,
+    "unit": "g"
+    },
+    {
+    "name": "Hermetiske tomater",
+    "amount": 400,
+    "unit": "g"
+    },
+    {
+    "name": "Grønnsaksbuljong",
+    "amount": 5,
+    "unit": "dl"
+    }
+    ],
+    "allergies": [],
+    "image": "linsegryte.jpg"
+    },
+    {
+    "name": "Bakt fisk med sitron og urter",
+    "description": "Saftig og smakfull bakt fisk med frisk sitron og aromatiske urter.",
+    "instructions": "1. Forvarm ovnen til 180 grader Celsius. 2. Legg fisken i en ildfast form og dryss over salt og pepper. 3. Legg sitronskiver på toppen av fisken og dryss over hakket urter. 4. Bak fisken i ovnen i ca. 15-20 minutter, eller til fisken er gjennomstekt og flaker seg lett. 5. Server med en frisk salat og kokt potet.",
+    "ingredients": [
+    {
+    "name": "Fiskfilet",
+    "amount": 2,
+    "unit": "stk"
+    },
+    {
+    "name": "Sitron",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Salt",
+    "amount": 1,
+    "unit": "ts"
+    },
+    {
+    "name": "Pepper",
+    "amount": 1,
+    "unit": "klype"
+    },
+    {
+    "name": "Urter (f.eks. persille, timian, dill)",
+    "amount": 2,
+    "unit": "ss"
+    }
+    ],
+    "allergies": [],
+    "image": "bakt_fisk.jpg"
+    },
+    {
+    "name": "Spinat- og fetaostfylte sopp",
+    "description": "Smakfulle og saftige sopp fylt med en blanding av spinat og fetaost.",
+    "instructions": "1. Rens soppen og fjern stilken. 2. Stek spinat og løk i en panne til spinaten er sammenfalt og løken er myk. 3. Tilsett fetaost og bland godt sammen. 4. Fyll soppen med spinatblandingen og legg dem i en ildfast form. 5. Stek i ovnen på 200 grader Celsius i ca. 15-20 minutter, eller til soppen er møre. 6. Server som en forrett eller som tilbehør.",
+    "ingredients": [
+    {
+    "name": "Sopp",
+    "amount": 10,
+    "unit": "stk"
+    },
+    {
+    "name": "Spinat",
+    "amount": 200,
+    "unit": "g"
+    },
+    {
+    "name": "Løk",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Fetaost",
+    "amount": 100,
+    "unit": "g"
+    }
+    ],
+    "allergies": [],
+    "image": "spinat_feta_sopp.jpg"
+    },
+    {
+    "name": "Thai peanøtt-nudelsalat",
+    "description": "En smakfull og mettende nudelsalat med en herlig kombinasjon av thailandske smaker og peanøtter.",
+    "instructions": "1. Kok nudler etter anvisning på pakken. 2. Bland sammen soyasaus, fiskesaus, limejuice, brunt sukker og srirachasaus i en bolle. 3. Stek kyllingfilet i en panne til den er gjennomstekt, og skjær den deretter i strimler. 4. Bland nudler, kylling, grønnsaker, koriander og peanøtter sammen i en stor bolle. 5. Hell dressingen over salaten og bland godt sammen. 6. Server salaten med ekstra limebåter og strø litt ekstra peanøtter over ved servering.",
+    "ingredients": [
+    {
+    "name": "Risnudler",
+    "amount": 200,
+    "unit": "g"
+    },
+    {
+    "name": "Soyasaus",
+    "amount": 2,
+    "unit": "ss"
+    },
+    {
+    "name": "Fiskesaus",
+    "amount": 1,
+    "unit": "ss"
+    },
+    {
+    "name": "Limejuice",
+    "amount": 2,
+    "unit": "ss"
+    },
+    {
+    "name": "Brunt sukker",
+    "amount": 1,
+    "unit": "ss"
+    },
+    {
+    "name": "Srirachasaus",
+    "amount": 1,
+    "unit": "ts"
+    },
+    {
+    "name": "Kyllingfilet",
+    "amount": 2,
+    "unit": "stk"
+    },
+    {
+    "name": "Agurk",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Gulrot",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Rødløk",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Koriander",
+    "amount": 1,
+    "unit": "dl"
+    },
+    {
+    "name": "Peanøtter",
+    "amount": 50,
+    "unit": "g"
+    }
+    ],
+    "allergies": [
+    "Peanøtter"
+    ],
+    "image": "thai_nudelsalat.jpg"
+    },
+    {
+    "name": "Grønnsaksvårruller med dipping-saus",
+    "description": "Sprø og smakfulle vårruller fylt med en blanding av friske grønnsaker, servert med en deilig dipping-saus.",
+    "instructions": "1. Skjær alle grønnsakene i tynne strimler. 2. Legg en rispapirark i varmt vann i noen sekunder til det er mykt. 3. Legg en liten mengde av grønnsakene i midten av rispapirarket. 4. Brett inn sidene og rull forsiktig opp vårrullen. 5. Gjenta med resten av ingrediensene. 6. Bland sammen ingrediensene til dipping-sausen og server sammen med vårrullene.",
+    "ingredients": [
+    {
+    "name": "Rispapirark",
+    "amount": 12,
+    "unit": "stk"
+    },
+    {
+    "name": "Gulrot",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Agurk",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Paprika",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Avocado",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Mango",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Soya- eller hoisinsaus",
+    "amount": 4,
+    "unit": "ss"
+    },
+    {
+    "name": "Risdressing",
+    "amount": 2,
+    "unit": "ss"
+    },
+    {
+    "name": "Limejuice",
+    "amount": 2,
+    "unit": "ss"
+    },
+    {
+    "name": "Sesamolje",
+    "amount": 1,
+    "unit": "ts"
+    },
+    {
+    "name": "Sesamfrø",
+    "amount": 1,
+    "unit": "ss"
+    }
+    ],
+    "allergies": [
+    "Sesam"
+    ],
+    "image": "gronnsaksvarruller.jpg"
+    },
+    {
+    "name": "Bakte kyllinglår med honning-senneps-glasur",
+    "description": "Saftige og smakfulle kyllinglår bakt med en herlig honning-senneps-glasur.",
+    "instructions": "1. Forvarm ovnen til 200 grader Celsius. 2. Bland sammen honning, sennep, hvitløk, olivenolje, salt og pepper i en bolle. 3. Legg kyllinglårene i en ildfast form og pensle dem godt med honning-sennepsblandingen. 4. Stek i ovnen i ca. 40-45 minutter, eller til kyllingen er gjennomstekt og har en gyllenbrun glasur. 5. Server med en frisk salat og ovnsbakte poteter.",
+    "ingredients": [
+    {
+    "name": "Kyllinglår",
+    "amount": 4,
+    "unit": "stk"
+    },
+    {
+    "name": "Honning",
+    "amount": 2,
+    "unit": "ss"
+    },
+    {
+    "name": "Dijonsennep",
+    "amount": 2,
+    "unit": "ss"
+    },
+    {
+    "name": "Hvitløksfedd",
+    "amount": 2,
+    "unit": "stk"
+    },
+    {
+    "name": "Olivenolje",
+    "amount": 2,
+    "unit": "ss"
+    },
+    {
+    "name": "Salt",
+    "amount": 1,
+    "unit": "ts"
+    },
+    {
+    "name": "Pepper",
+    "amount": 1,
+    "unit": "klype"
+    }
+    ],
+    "allergies": [],
+    "image": "bakte_kyllinglar.jpg"
+    },
+    {
+    "name": "Kikerter- og grønnsakssalat med tomater og agurk",
+    "description": "En frisk og mettende salat med kikerter, tomater og agurk.",
+    "instructions": "1. Bland sammen alle ingrediensene i en bolle. 2. Smak til med salt, pepper og olivenolje. 3. La salaten stå i kjøleskapet i minst 30 minutter før servering for å la smakene blande seg godt. 4. Server som en sunn og næringsrik salat.",
+    "ingredients": [
+    {
+    "name": "Kikerter",
+    "amount": 400,
+    "unit": "g"
+    },
+    {
+    "name": "Cherrytomater",
+    "amount": 200,
+    "unit": "g"
+    },
+    {
+    "name": "Agurk",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Rødløk",
+    "amount": 1,
+    "unit": "stk"
+    },
+    {
+    "name": "Persille",
+    "amount": 1,
+    "unit": "dl"
+    },
+    {
+    "name": "Sitronsaft",
+    "amount": 2,
+    "unit": "ss"
+    },
+    {
+    "name": "Olivenolje",
+    "amount": 2,
+    "unit": "ss"
+    },
+    {
+    "name": "Salt",
+    "amount": 1,
+    "unit": "ts"
+    },
+    {
+    "name": "Pepper",
+    "amount": 1,
+    "unit": "klype"
+    }
+    ],
+    "allergies": [],
+    "image": "kikerter_gronnssakssalat.jpg"
+    },
+    {
+    "name": "Grønnsakslasagne med squash og spinat",
+    "description": "En deilig og mettende vegetarisk lasagne med lag av squash, spinat og ostesaus.",
+    "instructions": "1. Forvarm ovnen til 180 grader Celsius. 2. Lag ostersaus ved å smelte smør i en kjele. Tilsett mel og rør godt sammen. Hell gradvis i melk mens du rører kontinuerlig. La sausen tykne. 3. Legg et lag med lasagneplater i bunnen av en ildfast form. 4. Topp med lag av squashskiver, spinat og ostersaus. Gjenta lagene til ingrediensene er brukt opp. Avslutt med et lag ostersaus på toppen. 5. Dekk formen med aluminiumsfolie og stek i ovnen i ca. 40-45 minutter, eller til lasagnen er varm og boblende. 6. Server med en frisk salat og brød.",
+    "ingredients": [
+    {
+    "name": "Lasagneplater",
+    "amount": 12,
+    "unit": "stk"
+    },
+    {
+    "name": "Squash",
+    "amount": 2,
+    "unit": "stk"
+    },
+    {
+    "name": "Spinat",
+    "amount": 200,
+    "unit": "g"
+    },
+    {
+    "name": "Smør",
+    "amount": 50,
+    "unit": "g"
+    },
+    {
+    "name": "Hvetemel",
+    "amount": 50,
+    "unit": "g"
+    },
+    {
+    "name": "Melk",
+    "amount": 5,
+    "unit": "dl"
+    },
+    {
+    "name": "Revet ost",
+    "amount": 200,
+    "unit": "g"
+    },
+    {
+    "name": "Salt",
+    "amount": 1,
+    "unit": "ts"
+    },
+    {
+    "name": "Pepper",
+    "amount": 1,
+    "unit": "klype"
+    }
+    ],
+    "allergies": [
+    "Hvetemel"
+    ],
+    "image": "gronnsakslasagne.jpg"
+    },
+    {
+    "name": "Sjokoladekake med bær",
+    "description": "En saftig og dekadent sjokoladekake toppet med friske bær.",
+    "instructions": "1. Forvarm ovnen til 180 grader Celsius. 2. Smelt smøret og sjokoladen sammen i en bolle over vannbad eller i mikrobølgeovnen. 3. I en annen bolle, visp sammen sukker og egg til det er lyst og luftig. 4. Tilsett smør- og sjokoladeblandingen i eggeblandingen og rør godt sammen. 5. Sikt mel, kakao og bakepulver i blandingen og rør til alt er godt blandet. 6. Hell røren i en smurt kakeform og stek i ovnen i ca. 30-35 minutter, eller til kaken er gjennomstekt. 7. Avkjøl kaken på rist. 8. Topp kaken med friske bær før servering.",
+    "ingredients": [
+    {
+    "name": "Smør",
+    "amount": 200,
+    "unit": "g"
+    },
+    {
+    "name": "Mørk sjokolade",
+    "amount": 200,
+    "unit": "g"
+    },
+    {
+    "name": "Sukker",
+    "amount": 200,
+    "unit": "g"
+    },
+    {
+    "name": "Egg",
+    "amount": 4,
+    "unit": "stk"
+    },
+    {
+    "name": "Hvetemel",
+    "amount": 200,
+    "unit": "g"
+    },
+    {
+    "name": "Kakao",
+    "amount": 40,
+    "unit": "g"
+    },
+    {
+    "name": "Bakepulver",
+    "amount": 2,
+    "unit": "ts"
+    },
+    {
+    "name": "Friske bær",
+    "amount": 200,
+    "unit": "g"
+    }
+    ],
+    "allergies": [
+    "Hvetemel"
+    ],
+    "image": "sjokoladekake.jpg"
+    }
+    ]
+    }

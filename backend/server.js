@@ -15,14 +15,13 @@ const ingredientRoutes = require('./routes/ingredients')
 const app = express()
 
 // Serve static files from the frontend/build directory
-app.use(express.static(path.join(__dirname, '..', 'frontend', 'build')));
+app.use(express.static(path.join(__dirname, '..', 'frontend', 'public')));
 
 // Serve your API routes or other middleware here
 
 // Route all remaining requests to your React app's index.html file
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '..', 'frontend', 'build', 'index.html'));
-});
+
+
 // middleware
 app.use(express.json())
 
@@ -50,5 +49,10 @@ mongoose.connect(process.env.MONGO_URI)
     .catch((error) => {
         console.log(error)
     })
+
+
+    app.get('*', (req, res) => {
+        res.sendFile(path.join(__dirname, '..', 'frontend', 'public', 'index.html'));
+    });
 
 //process.env

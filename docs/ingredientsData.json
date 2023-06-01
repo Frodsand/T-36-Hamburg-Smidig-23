@@ -1,0 +1,423 @@
+[
+    {
+      "name": "Epler",
+      "price": 3,
+      "image": "Epler.jpg"
+    },
+    {
+      "name": "Appelsiner",
+      "price": 52,
+      "image": "Appelsiner.jpg"
+    },
+    {
+      "name": "Bananer",
+      "price": 80,
+      "image": "Bananer.jpg"
+    },
+    {
+      "name": "Druer",
+      "price": 78,
+      "image": "Druer.jpg"
+    },
+    {
+      "name": "Agurk",
+      "price": 25,
+      "image": "Agurk.jpg"
+    },
+    {
+      "name": "Gulrot",
+      "price": 99,
+      "image": "Gulrot.jpg"
+    },
+    {
+      "name": "Tomat",
+      "price": 100,
+      "image": "Tomat.jpg"
+    },
+    {
+      "name": "Paprika",
+      "price": 58,
+      "image": "Paprika.jpg"
+    },
+    {
+      "name": "Salatblader",
+      "price": 80,
+      "image": "Salatblader.jpg"
+    },
+    {
+      "name": "Tortilla",
+      "price": 53,
+      "image": "Tortilla.jpg"
+    },
+    {
+      "name": "Hvetemel",
+      "price": 37,
+      "image": "Hvetemel.jpg"
+    },
+    {
+      "name": "Gjær",
+      "price": 72,
+      "image": "Gjær.jpg"
+    },
+    {
+      "name": "Olivenolje",
+      "price": 6,
+      "image": "Olivenolje.jpg"
+    },
+    {
+      "name": "Salt",
+      "price": 24,
+      "image": "Salt.jpg"
+    },
+    {
+      "name": "Vann",
+      "price": 57,
+      "image": "Vann.jpg"
+    },
+    {
+      "name": "Tomatsaus",
+      "price": 74,
+      "image": "Tomatsaus.jpg"
+    },
+    {
+      "name": "Revet ost",
+      "price": 55,
+      "image": "Revet ost.jpg"
+    },
+    {
+      "name": "Skinke",
+      "price": 17,
+      "image": "Skinke.jpg"
+    },
+    {
+      "name": "Sopp",
+      "price": 62,
+      "image": "Sopp.jpg"
+    },
+    {
+      "name": "Avokado",
+      "price": 94,
+      "image": "Avokado.jpg"
+    },
+    {
+      "name": "Løk",
+      "price": 16,
+      "image": "Løk.jpg"
+    },
+    {
+      "name": "Hvitløksfedd",
+      "price": 11,
+      "image": "Hvitløksfedd.jpg"
+    },
+    {
+      "name": "Lime",
+      "price": 86,
+      "image": "Lime.jpg"
+    },
+    {
+      "name": "Kikerter",
+      "price": 74,
+      "image": "Kikerter.jpg"
+    },
+    {
+      "name": "Sitronsaft",
+      "price": 53,
+      "image": "Sitronsaft.jpg"
+    },
+    {
+      "name": "Tahini",
+      "price": 51,
+      "image": "Tahini.jpg"
+    },
+    {
+      "name": "Spisskummen",
+      "price": 32,
+      "image": "Spisskummen.jpg"
+    },
+    {
+      "name": "Egg",
+      "price": 88,
+      "image": "Egg.jpg"
+    },
+    {
+      "name": "Spinat",
+      "price": 43,
+      "image": "Spinat.jpg"
+    },
+    {
+      "name": "Pepper",
+      "price": 57,
+      "image": "Pepper.jpg"
+    },
+    {
+      "name": "Kyllingbuljong",
+      "price": 8,
+      "image": "Kyllingbuljong.jpg"
+    },
+    {
+      "name": "Kyllingbryst",
+      "price": 27,
+      "image": "Kyllingbryst.jpg"
+    },
+    {
+      "name": "Nudler",
+      "price": 56,
+      "image": "Nudler.jpg"
+    },
+    {
+      "name": "Selleri",
+      "price": 59,
+      "image": "Selleri.jpg"
+    },
+    {
+      "name": "Tofu",
+      "price": 47,
+      "image": "Tofu.jpg"
+    },
+    {
+      "name": "Soyasaus",
+      "price": 61,
+      "image": "Soyasaus.jpg"
+    },
+    {
+      "name": "Sesamolje",
+      "price": 1,
+      "image": "Sesamolje.jpg"
+    },
+    {
+      "name": "Ingefær",
+      "price": 72,
+      "image": "Ingefær.jpg"
+    },
+    {
+      "name": "Olje",
+      "price": 78,
+      "image": "Olje.jpg"
+    },
+    {
+      "name": "Brokkoli",
+      "price": 43,
+      "image": "Brokkoli.jpg"
+    },
+    {
+      "name": "Ris",
+      "price": 28,
+      "image": "Ris.jpg"
+    },
+    {
+      "name": "Kjøttdeig",
+      "price": 3,
+      "image": "Kjøttdeig.jpg"
+    },
+    {
+      "name": "Brødrasp",
+      "price": 58,
+      "image": "Brødrasp.jpg"
+    },
+    {
+      "name": "Sukker",
+      "price": 16,
+      "image": "Sukker.jpg"
+    },
+    {
+      "name": "Rødløk",
+      "price": 29,
+      "image": "Rødløk.jpg"
+    },
+    {
+      "name": "Oliven",
+      "price": 6,
+      "image": "Oliven.jpg"
+    },
+    {
+      "name": "Fetaost",
+      "price": 59,
+      "image": "Fetaost.jpg"
+    },
+    {
+      "name": "Oregano",
+      "price": 52,
+      "image": "Oregano.jpg"
+    },
+    {
+      "name": "Noriark",
+      "price": 15,
+      "image": "Noriark.jpg"
+    },
+    {
+      "name": "Sushi-ris",
+      "price": 45,
+      "image": "Sushi-ris.jpg"
+    },
+    {
+      "name": "Avocado",
+      "price": 86,
+      "image": "Avocado.jpg"
+    },
+    {
+      "name": "Koriander",
+      "price": 70,
+      "image": "Koriander.jpg"
+    },
+    {
+      "name": "Gurkemeie",
+      "price": 20,
+      "image": "Gurkemeie.jpg"
+    },
+    {
+      "name": "Linser",
+      "price": 35,
+      "image": "Linser.jpg"
+    },
+    {
+      "name": "Hermetiske tomater",
+      "price": 30,
+      "image": "Hermetiske tomater.jpg"
+    },
+    {
+      "name": "Grønnsaksbuljong",
+      "price": 48,
+      "image": "Grønnsaksbuljong.jpg"
+    },
+    {
+      "name": "Fiskfilet",
+      "price": 61,
+      "image": "Fiskfilet.jpg"
+    },
+    {
+      "name": "Sitron",
+      "price": 78,
+      "image": "Sitron.jpg"
+    },
+    {
+      "name": "Urter (f.eks. persille, timian, dill)",
+      "price": 83,
+      "image": "Urter (f.eks. persille, timian, dill).jpg"
+    },
+    {
+      "name": "Risnudler",
+      "price": 78,
+      "image": "Risnudler.jpg"
+    },
+    {
+      "name": "Fiskesaus",
+      "price": 68,
+      "image": "Fiskesaus.jpg"
+    },
+    {
+      "name": "Limejuice",
+      "price": 100,
+      "image": "Limejuice.jpg"
+    },
+    {
+      "name": "Brunt sukker",
+      "price": 26,
+      "image": "Brunt sukker.jpg"
+    },
+    {
+      "name": "Srirachasaus",
+      "price": 23,
+      "image": "Srirachasaus.jpg"
+    },
+    {
+      "name": "Kyllingfilet",
+      "price": 96,
+      "image": "Kyllingfilet.jpg"
+    },
+    {
+      "name": "Peanøtter",
+      "price": 82,
+      "image": "Peanøtter.jpg"
+    },
+    {
+      "name": "Rispapirark",
+      "price": 57,
+      "image": "Rispapirark.jpg"
+    },
+    {
+      "name": "Mango",
+      "price": 30,
+      "image": "Mango.jpg"
+    },
+    {
+      "name": "Soya- eller hoisinsaus",
+      "price": 41,
+      "image": "Soya- eller hoisinsaus.jpg"
+    },
+    {
+      "name": "Risdressing",
+      "price": 57,
+      "image": "Risdressing.jpg"
+    },
+    {
+      "name": "Sesamfrø",
+      "price": 70,
+      "image": "Sesamfrø.jpg"
+    },
+    {
+      "name": "Kyllinglår",
+      "price": 50,
+      "image": "Kyllinglår.jpg"
+    },
+    {
+      "name": "Honning",
+      "price": 52,
+      "image": "Honning.jpg"
+    },
+    {
+      "name": "Dijonsennep",
+      "price": 67,
+      "image": "Dijonsennep.jpg"
+    },
+    {
+      "name": "Cherrytomater",
+      "price": 18,
+      "image": "Cherrytomater.jpg"
+    },
+    {
+      "name": "Persille",
+      "price": 97,
+      "image": "Persille.jpg"
+    },
+    {
+      "name": "Lasagneplater",
+      "price": 76,
+      "image": "Lasagneplater.jpg"
+    },
+    {
+      "name": "Squash",
+      "price": 73,
+      "image": "Squash.jpg"
+    },
+    {
+      "name": "Smør",
+      "price": 100,
+      "image": "Smør.jpg"
+    },
+    {
+      "name": "Melk",
+      "price": 52,
+      "image": "Melk.jpg"
+    },
+    {
+      "name": "Mørk sjokolade",
+      "price": 43,
+      "image": "Mørk sjokolade.jpg"
+    },
+    {
+      "name": "Kakao",
+      "price": 22,
+      "image": "Kakao.jpg"
+    },
+    {
+      "name": "Bakepulver",
+      "price": 6,
+      "image": "Bakepulver.jpg"
+    },
+    {
+      "name": "Friske bær",
+      "price": 18,
+      "image": "Friske bær.jpg"
+    }
+  ]
+  
