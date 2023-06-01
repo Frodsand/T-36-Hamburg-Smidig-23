@@ -1,32 +1,23 @@
 const express = require('express')
 const Lecture = require('../models/lecturesModel')
+const { getLectures, getLecture, createLecture, deleteLecture, updateLecture } = require('../controllers/lectureControllers')
 
 const router = express.Router()
 
 // GET all lectures
-router.get('/', (req, res) => {
-    res.json({mssg: 'GET all lectures'})
-})
+router.get('/', getLectures)
 
 // GET one lecture
-router.get('/:id', (req, res) => {
-    res.json({mssg: 'GET a single lecture'})
-})
+router.get('/:id', getLecture)
 
 // POST a new lecture
-router.post('/', (req, res) => {
-    res.json({mssg: 'POST a single lecture'})
-})
+router.post('/', createLecture)
 
 // DELETE a lecture
-router.delete('/:id', (req, res) => {
-    res.json({mssg: 'DELETE a single lecture'})
-})
+router.delete('/:id', deleteLecture)
 
 // UPDATE a lecture
-router.patch('/:id', (req, res) => {
-    res.json({mssg: 'UPDATE a lecture'})
-})
+router.patch('/:id', updateLecture)
 
 
 module.exports = router
