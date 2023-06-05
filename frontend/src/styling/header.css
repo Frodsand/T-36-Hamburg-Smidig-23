@@ -15,6 +15,17 @@
     padding: 14px 16px;
 }
 
+.logo:hover{
+    cursor: pointer;
+}
+
+.go-home-button{
+    background-color: #FD7752;
+    border: none;
+    height: 100px;
+    width: 110px;
+}
+
 .user-icon-box{
     display: flex;
     justify-content: center;
