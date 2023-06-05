@@ -1,4 +1,7 @@
 const mongoose = require("mongoose")
+const bcrypt = require('bcryptjs')
+
+
 
 const Schema = mongoose.Schema
 
@@ -22,5 +25,26 @@ const usersSchema = new Schema({
 
 })
 
-module.exports = mongoose.model("users", usersSchema);
+// static login method
+usersSchema.statics.login = async function(username, password){
+    if(!username || !password){
+        throw Error('Username and password must be filled')
+    }
 
+    const user = await this.findOne({ username })
+
+    if(!user){
+        throw Error('This user does not exist')
+    }
+
+    const passwordMatch = await (password === user.password)
+
+    if(!passwordMatch){
+        console.log(passwordMatch)
+        throw Error('Incorrect password')
+    }
+    console.log(passwordMatch)
+    return user
+}
+
+module.exports = mongoose.model("users", usersSchema);
