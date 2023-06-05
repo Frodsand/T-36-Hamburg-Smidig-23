@@ -1,4 +1,5 @@
 import "../styling/header.css"
+import { AiOutlineUser } from "react-icons/ai"
 
 const Header = () => {
 
@@ -7,6 +8,9 @@ const Header = () => {
     return (
         <header className="header">
             <img className="logo" src={logo} alt="logo" />
+            <div className="user-icon-box">
+                <AiOutlineUser className="user-icon"/>
+            </div>
         </header>
     )
 }
