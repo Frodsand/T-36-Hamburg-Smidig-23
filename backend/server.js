@@ -10,6 +10,7 @@ const userRoutes = require('./routes/users')
 const recipeRoutes = require('./routes/recipes')
 const learningOutcomeRoutes = require('./routes/learningOutcomes')
 const ingredientRoutes = require('./routes/ingredients')
+const loginRoutes = require('./routes/login')
 
 // create express app
 const app = express()
@@ -37,6 +38,7 @@ app.use('/api/users', userRoutes)
 app.use('/api/recipes', recipeRoutes)
 app.use('/api/learningoutcomes', learningOutcomeRoutes)
 app.use('/api/ingredients', ingredientRoutes)
+app.use('/api/user', loginRoutes)
 
 // connect to db
 mongoose.connect(process.env.MONGO_URI)
