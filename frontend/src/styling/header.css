@@ -1,0 +1,15 @@
+.header {
+    background-color: #FD7752;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo {
+    height: 100x;
+    width: 110px;
+    float: left;
+    padding: 14px 16px;
+}

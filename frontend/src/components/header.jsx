@@ -1,12 +1,12 @@
-
+import "../styling/header.css"
 
 const Header = () => {
 
-
+    const logo = require("../resources/images/logo.png")
 
     return (
-        <header>
-            <h1>Header</h1>
+        <header className="header">
+            <img className="logo" src={logo} alt="logo" />
         </header>
     )
 }
