@@ -37,10 +37,7 @@ usersSchema.statics.login = async function(username, password){
         throw Error('This user does not exist')
     }
 
-    //const match = await compare(password, user.password)
-    //const passwordMatch = await bcrypt.compare(password, user.password);
-
-    const passwordMatch =  (password === user.password)
+    const passwordMatch = await (password === user.password)
 
     if(!passwordMatch){
         console.log(passwordMatch)
@@ -51,4 +48,3 @@ usersSchema.statics.login = async function(username, password){
 }
 
 module.exports = mongoose.model("users", usersSchema);
-
