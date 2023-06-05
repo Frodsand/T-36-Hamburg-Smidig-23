@@ -37,7 +37,7 @@ function Login() {
                 // Modify the condition based on your API response
                 if (data && data.username) {
                     // Redirect to the dashboard page
-                    navigate('/dashboard');
+                    navigate('/home');
                 } else {
                     // Handle login error
                     console.log('Invalid credentials');
