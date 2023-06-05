@@ -1,12 +1,17 @@
 import Header from '../components/header';
+import "../styling/dashboard.css"
 
 function Dashboard(){
     return(
-        <div>
-            <header><Header /></header>
-            <h1>Dashboard</h1>
-            <p>This is the dashboard page</p>
-        </div>
+        <>
+            <header className='header'><Header /></header>
+            <div className='mainGrid'>
+                <div className='welcome'>
+                <h1 className='welcomeTitle'>Dashboard</h1>
+                <p className='welcomeMessage'>This is the dashboard page</p>
+                </div>
+            </div>
+        </>
     )
 }
 
