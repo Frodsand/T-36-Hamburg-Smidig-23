@@ -1,5 +1,5 @@
 const express = require('express')
-const SemesterPlan = require('../models/semesterPlansModel')
+const SemesterPlan = require('../schema/semesterPlansModel')
 const { getSemesterPlans, getSemesterPlan, createSemesterPlan, deleteSemesterPlan, updateSemesterPlan } = require('../controllers/semesterPlansControllers')
 
 const router = express.Router()

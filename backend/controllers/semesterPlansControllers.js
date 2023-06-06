@@ -1,4 +1,4 @@
-const SemesterPlans = require("../models/semesterPlansModel.js")
+const SemesterPlans = require("../schema/semesterPlansModel.js")
 const mongoose = require('mongoose')
 
 // GET all semesterPlans

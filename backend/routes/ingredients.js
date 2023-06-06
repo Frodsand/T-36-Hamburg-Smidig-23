@@ -1,6 +1,6 @@
 const express = require('express')
-const ingredients = require('../models/ingredientsModel')
-const { getIngredients, getIngredient, createIngredient, deleteIngredient, updateIngredient} = require('../controllers/ingredientsControllers')
+const ingredients = require('../schema/ingredientsModel')
+const { getIngredients, getIngredient, createIngredient, deleteIngredient, updateIngredient, createDocuments} = require('../controllers/ingredientsControllers')
 
 const router = express.Router()
 
@@ -11,7 +11,10 @@ router.get('/', getIngredients)
 router.get('/:id', getIngredient)
 
 // POST a new ingredient
-router.post('/', createIngredient)
+//router.post('/', createIngredient)
+
+// POST document to collection
+//router.post('/', createDocuments)
 
 // DELETE a ingredient
 router.delete('/:id', deleteIngredient)

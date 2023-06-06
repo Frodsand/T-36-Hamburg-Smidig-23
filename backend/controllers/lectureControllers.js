@@ -1,4 +1,4 @@
-const Lecture = require('../models/lecturesModel');
+const Lecture = require('../schema/lecturesModel');
 const mongoose = require('mongoose');
 
 // GET all lectures

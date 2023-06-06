@@ -1,5 +1,5 @@
 const express = require('express')
-const Lecture = require('../models/lecturesModel')
+const Lecture = require('../schema/lecturesModel')
 const { getLectures, getLecture, createLecture, deleteLecture, updateLecture } = require('../controllers/lectureControllers')
 
 const router = express.Router()

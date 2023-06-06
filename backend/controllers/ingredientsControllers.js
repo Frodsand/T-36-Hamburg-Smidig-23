@@ -1,5 +1,7 @@
-const Ingredient = require('../models/ingredientsModel');
+const Ingredient = require('../schema/ingredientsModel');
 const mongoose = require('mongoose');
+const fs = require('fs');
+const { log } = require('console');
 
 // GET all ingredients
 const getIngredients = async (req, res) => {
@@ -25,10 +27,9 @@ const getIngredient = async (req, res) => {
     res.status(200).json(ingredient);
 }
 
-// POST a new ingredient
+/* // POST a new ingredient
 const createIngredient = async (req, res) => {
     const {name, quantity, price, image} = req.body;
-
     // add to the database
     try{
         const ingredient = await Ingredient.create({name, quantity, price, image});
@@ -37,6 +38,23 @@ const createIngredient = async (req, res) => {
         res.status(400).json({error: error.message});
     }
 }
+
+// POST documents to ingredients collection
+const createDocuments = async (req, res, next) =>{
+    const data = JSON.parse(fs.readFileSync('./data/ingredients.json', 'utf-8'))
+    console.log(data)
+
+    // import data to MongoDB
+    try {
+        await Ingredient.create(data)
+        console.log('data successfully imported')
+        // to exit the process
+        process.exit()
+    } catch (error) {
+        console.log('error', error)
+    }
+}
+//createDocuments() */
 
 // DELETE a ingredient
 const deleteIngredient = async (req, res) => {
@@ -77,7 +95,8 @@ const updateIngredient = async (req, res) => {
 module.exports = {
     getIngredients,
     getIngredient,
-    createIngredient,
+    //createIngredient,
     deleteIngredient,
-    updateIngredient
+    updateIngredient,
+    //createDocuments
 };

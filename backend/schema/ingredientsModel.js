@@ -2,6 +2,7 @@ const mongoose = require("mongoose")
 
 const Schema = mongoose.Schema
 
+
 const ingredientsSchema = new Schema({
     name: {
         type: String,
@@ -17,8 +18,9 @@ const ingredientsSchema = new Schema({
     },
     image: {
         type: String,
-        required: true
+        required: [true, 'Image is required.']
     }
 })
 
 module.exports = mongoose.model("ingredients", ingredientsSchema);
+

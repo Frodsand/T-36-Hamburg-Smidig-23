@@ -3,17 +3,15 @@ const mongoose = require("mongoose")
 const Schema = mongoose.Schema
 
 const semesterPlansSchema = new Schema({
-    name: {
+    title: {
         type: String,
         required: true
     },
-    lecture: {
-        type: [],
-        required: true
+    lectureID: {
+        type: []
     },
-    user: {
+    userId: {
         type: String,
-        required: true
     }
 })
 

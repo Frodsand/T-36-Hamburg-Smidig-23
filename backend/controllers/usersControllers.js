@@ -1,4 +1,4 @@
-const User = require("../models/usersModel")
+const User = require("../schema/usersModel")
 const mongoose = require('mongoose')
 
 // GET all users
