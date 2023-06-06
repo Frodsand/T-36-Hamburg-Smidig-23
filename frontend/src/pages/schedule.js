@@ -1,6 +1,6 @@
 import '../styling/schedule.css'
 import LectureCard from '../components/LectureCard'
-import { useState } from 'react';
+// import { useState } from 'react';
 
 let semesterPlanTitle = "Undervisningsplan"
 
@@ -8,7 +8,7 @@ let semesterPlanTitle = "Undervisningsplan"
 
 function Schedule () {
 
-    const [lectureArray, setLectureArray] = useState([]);
+// const [lectureArray, setLectureArray] = useState([]);
 
 // useEffect(() => {
 //     const getSemesterPlan = async () => {
@@ -34,7 +34,7 @@ function Schedule () {
 //     getSemesterPlan();
 // }, []); 
 
-console.log(lectureArray)
+// console.log(lectureArray)
 
 // const printLectureCards = () => {
 //     lectureArray.array.forEach(element => {
@@ -48,6 +48,7 @@ console.log(lectureArray)
             <h1>{semesterPlanTitle}</h1>
 
             <section className="gridContainer">
+            {/* {lectureArray.map((lectureObject, index) => (<LectureCard key={index} lectureObject={lectureObject} />))} */}
               <LectureCard/>
               <LectureCard/>
               <LectureCard/>
@@ -72,10 +73,7 @@ console.log(lectureArray)
               <LectureCard/>
               <LectureCard/>
               <LectureCard/>
-                
             </section>
-            
-            
         </div>
     )
 }
