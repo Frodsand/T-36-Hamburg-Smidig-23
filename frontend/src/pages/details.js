@@ -1,10 +1,19 @@
+import '../styling/details.css'
+import LecturePlan from'../components/LecturePlan'
+
 function DetailPage (){
     return (
         <div>
-            <h1>Detail Page</h1>
-            <p>This is the detail page</p>
-        </div>
-    )
+            <h1>Denne ukes plan</h1>
+            
+            <div>
+                <LecturePlan/>
+            </div>
+            
+      </div>
+    );
 }
 
 export default DetailPage;
+
+ 
