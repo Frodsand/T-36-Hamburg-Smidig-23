@@ -39,7 +39,9 @@ app.use('/api/ingredients', ingredientRoutes)
 
 
 // connect to db
-mongoose.connect(process.env.MONGO_URI)
+mongoose.connect(process.env.MONGO_URI,{
+    dbName: 'chewed'
+})
     .then(() => {
         // listen for requests
         app.listen(process.env.PORT, () => {

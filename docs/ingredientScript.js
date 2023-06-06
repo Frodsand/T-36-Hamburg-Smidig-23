@@ -2,8 +2,6 @@ require('dotenv').config()
 const mongoose = require("mongoose");
 const ingredientsModel = require("../backend/schema/ingredientsModel");
 
-const dbName = 'chewed';
-
 const url = process.env.MONGO_URI
 
 mongoose.connect(url).then(()=>{
@@ -50,6 +48,12 @@ async function createCollectionAndDocuments(){
                 quantity: '1',
                 price: '10',
                 image: 'minibanana.png'
+            },
+            {
+                name: 'Big Banana',
+                quantity: '1',
+                price: '10',
+                image: 'bigbanana.png'
             }
         ];
 
