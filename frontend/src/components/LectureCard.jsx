@@ -2,6 +2,8 @@ import './LectureCardStyle.css'
 
 const LectureCard = () => {
 
+    let lectureObject = null
+
     let category = "kategori"
     let level = "Nivå 1"
     let lectureTitle = "Undervisningstittel"
