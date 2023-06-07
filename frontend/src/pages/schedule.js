@@ -5,7 +5,6 @@ import LectureCard from '../components/LectureCard'
 let semesterPlanTitle = "Undervisningsplan"
 
 
-
 function Schedule () {
     
     return (
