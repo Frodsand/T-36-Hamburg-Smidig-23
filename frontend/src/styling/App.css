@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Exo:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+h1, h2, h3, h4, h5, p{
+    margin: 0;
+    font-family: cabin, sans-serif;
+}
+
+h1{
+    font-size: 60pt;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 42pt;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 23pt;
+    font-weight: 700;
+}
+
+h4{
+    font-size: 18pt;
+    font-weight: 600;
+}
+
+p{
+    font-size: 15;
+    font-weight: 400;
+}

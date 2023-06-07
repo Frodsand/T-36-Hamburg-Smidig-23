@@ -1,0 +1,54 @@
+.card {
+    background-color: #FCF0D9;
+    padding: 2rem;
+    border-radius: 2em;
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.146);
+}
+
+.top-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+
+.category{
+    color: white;
+    margin: 0;
+
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 100em;
+    background-color: #182133;
+}
+
+.lectureTitle{
+    margin-bottom: 3em;
+}
+
+.recipe-info{
+    display: flex;
+    margin-bottom: 3em;
+}
+
+.recipe-info_heading{
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+.recipe-info_text{
+    width: 50%;
+}
+
+.recipeTitle{
+    margin-bottom: 2em;
+}
+
+.recipe-info_image{
+    width: 50%;
+}
+
