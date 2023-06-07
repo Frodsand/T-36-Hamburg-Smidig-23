@@ -1,3 +1,4 @@
+
 import React from 'react'
 import '../styling/LecturePlanStyle.css'
 import RecipeComponent from './RecipeComponent'
@@ -23,19 +24,22 @@ const LecturePlan = () => {
           
           <div className='lectureImage'>
                <img src={images} alt='Lecture Image' />
-            </div>
+          </div>
 
-            <section className='content'>
+          <section className='content'>
 
-              <div className='learningOutcome-Component'>
+          <div className='learningOutcome-Component'>
               <LearningOutcomeComponent />
-      
-              </div>
+          </div>
 
+
+          <div className='lectureImage'>
+          <img src={lectureImage} alt='Lecture image' />
+          </div>
               <div className="recipeComponent">
                 <RecipeComponent/>
               </div>
-            </section>
+         </section>
             
          
 
@@ -47,4 +51,3 @@ const LecturePlan = () => {
 }
 
 export default LecturePlan;
-
