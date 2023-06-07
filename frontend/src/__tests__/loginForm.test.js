@@ -2,8 +2,7 @@ import React from 'react';
 import TestRenderer from 'react-test-renderer';
 import { render, fireEvent, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
-import LoginForm from '../pages/LoginForm';
-import { act } from 'react-dom/test-utils';
+import LoginForm from '../components/LoginForm';
 import '@testing-library/jest-dom/extend-expect';
 
 test('LoginForm matches snapshot', () => {
