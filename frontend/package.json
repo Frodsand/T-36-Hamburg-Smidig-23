@@ -45,11 +45,20 @@
       ">0.2%",
       "not dead",
       "not op_mini all"
-    ],
-    "development": [
+    ]
+  },
+  "babel": {
+    "presets": ["@babel/preset-env", "@babel/preset-react"]
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+"development": [
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
     ]
   }
-}
