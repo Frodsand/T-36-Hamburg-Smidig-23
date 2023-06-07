@@ -1,5 +1,5 @@
-import PrimaryButton from '../components/Buttons';
-import Buttons from '../components/Buttons'
+
+import {PrimaryButton, OutlinePrimaryButton, BigPrimaryButton, OutlineBlackButton, OutlineWhiteButton} from '../components/Buttons'
 
 function Schedule () {
     return (
@@ -8,6 +8,9 @@ function Schedule () {
             <p>This is the schedule page</p>
             <div>
                 <PrimaryButton buttonText="Primary button"></PrimaryButton>
+                <OutlinePrimaryButton buttonText="Outline button"></OutlinePrimaryButton>
+                <BigPrimaryButton buttonText="Big button"></BigPrimaryButton>
+                <OutlineBlackButton buttonText="black outline button"></OutlineBlackButton>
             </div>
         </div>
     )
