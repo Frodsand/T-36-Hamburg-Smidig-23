@@ -1,41 +1,42 @@
-.mainGrid{
+.mainGrid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 10px;
-    padding: 10px;
-    margin: 10px;
-    margin-top: 80px;
+    grid-gap: 150px;
+    padding-right: 100%;
+    margin: 0px;
+    margin-top: -2%;
     background-color: #f5f5f5;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
-.my-plan-card{
+.my-plan-card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    height: 20%;
     align-items: center;
-    background-color: #fff;
     border-radius: 10px;
-    padding: 50px;
-    margin: 50px;
+    margin-left: 110%;
+    margin-top: 60%;
+    padding: 40px;
     width: 200px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
-.my-plan-card:hover{
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+.my-plan-card:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
     cursor: pointer;
 }
 
-.my-plan-title{
+.my-plan-title {
     font-size: 20px;
     font-weight: bold;
     margin: 10px;
 }
 
-.my-plan-button{
+.my-plan-button {
     background-color: #FD7752;
     color: #fff;
     border: none;
@@ -46,7 +47,11 @@
     font-weight: bold;
 }
 
-.my-plan-button:hover{
+.my-plan-button:hover {
     background-color: #FF5b2e;
     cursor: pointer;
+}
+
+.nav-bar {
+    height: 200%;
 }
