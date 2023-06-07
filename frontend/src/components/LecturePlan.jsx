@@ -3,7 +3,7 @@ import React from 'react'
 import RecipeComponent from './RecipeComponent'
 import LearningOutcomeComponent from './LearningOutcomeComponent'
 import Header from './header'
-import lectureImage from '../images/ukensplan.png'
+import lectureImage from '../images/ukensplan2.jpg'
 
 
 
