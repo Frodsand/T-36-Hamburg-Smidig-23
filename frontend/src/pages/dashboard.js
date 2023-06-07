@@ -1,5 +1,5 @@
 import Header from '../components/header';
-import {Ingredient} from '../components/showIngredient'
+import Lectures from '../components/showLectures'
 
 function Dashboard(){
     return(
@@ -7,7 +7,7 @@ function Dashboard(){
             <header><Header /></header>
             <h1>Dashboard</h1>
             <p>This is the dashboard page</p>
-            <Ingredient />
+            <Lectures />
         </div>
     )
 }
