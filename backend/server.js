@@ -1,11 +1,14 @@
 require('dotenv').config()
 
+const cors = require('cors');
+
+
 const express = require('express')
 const mongoose = require('mongoose')
 const path = require('path');
 
 const createLectureCollectionAndDocumets = require('./scripts/lecturesScript')
-const createUsereDocumets = require('./scripts/usersScript')
+const createUsersDocuments = require('./scripts/usersScript')
 
 const lectureRoutes = require('./routes/lectures')
 const userRoutes = require('./routes/users')
@@ -27,6 +30,8 @@ app.use((req, res, next) => {
     console.log(req.path, req.method)
     next()
 })
+
+app.use(cors());
 
 // routes
 app.use('/api/lectures',lectureRoutes)

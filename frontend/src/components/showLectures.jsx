@@ -22,11 +22,10 @@ const Lectures = () => {
   return (
     <>
       <div>
+        This is an example. To be removed.
         {lectures.map((lecture) => (
-            <div key={lecture.id}>
-                <h3>{lecture.recipeTitle}</h3>
-                <p>{lecture.title}</p>
-                <p>{lecture.learningOutcome}</p>
+            <div key={lecture._id}>
+                <h3>{lecture.title}</h3>
             </div>
         ))}
       </div>

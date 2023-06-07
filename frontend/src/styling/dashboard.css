@@ -1,0 +1,61 @@
+.mainGrid {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 150px;
+    padding-right: 100%;
+    margin: 0px;
+    margin-top: -2%;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.my-plan-card {
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 110%;
+    margin-top: 60%;
+    padding: 40px;
+    width: 200px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.my-plan-card:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.my-plan-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.my-plan-button {
+    background-color: #FD7752;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.my-plan-button:hover {
+    background-color: #FF5b2e;
+    cursor: pointer;
+}
+
+.nav-bar {
+    height: 200%;
+}
+
+.header{
+    max-height: fit-content;
+}
