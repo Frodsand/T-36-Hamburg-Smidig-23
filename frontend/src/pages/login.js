@@ -55,7 +55,7 @@ function Login() {
     };
 
     return (
-        <div>
+        <div role="alert">
             <h1>Login</h1>
             <LoginForm
                 username={username}

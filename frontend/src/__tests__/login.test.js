@@ -4,6 +4,7 @@ import { render, fireEvent } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import Login from '../pages/login';
 
+
 test('Snapshot login page', () => {
 
     //Checks snapshot of the login component
@@ -47,3 +48,4 @@ describe('Login Component', () => {
         expect(passwordInput.value).toBe('testPassword');
     });
 });
+
