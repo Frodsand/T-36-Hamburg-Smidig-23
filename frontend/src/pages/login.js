@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import LoginForm from './LoginForm';
+import LoginForm from '../components/LoginForm';
 
 function Login() {
     const [username, setUsername] = useState('');
