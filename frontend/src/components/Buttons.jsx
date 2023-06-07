@@ -1,5 +1,10 @@
 import "./buttons.css"
 
+//How to use button components:
+// 1 -> import {PrimaryButton, OutlinePrimaryButton, BigPrimaryButton, OutlineBlackButton, OutlineWhiteButton} from '../components/Buttons'
+// 2 -> in jsx: <PrimaryButton buttonText="Enter butten text here"></PrimaryButton> 
+
+
 export const PrimaryButton = ({buttonText}) => {
 
     return <button className="button primary">{buttonText}</button>

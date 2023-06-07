@@ -38,6 +38,10 @@
 }
 
 .button:hover{
-    scale: 110%;
+    scale: 105%;
+    cursor: pointer;
+}
 
+.button:active{
+    scale: 95%;
 }
