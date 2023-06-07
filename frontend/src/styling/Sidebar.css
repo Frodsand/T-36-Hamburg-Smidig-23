@@ -8,22 +8,19 @@
     border-radius: 2%;
 }
 
-#sidebarBox {
+.sidebarBox {
     font-size: 210%;
     margin: 30px;
     font-weight: bold;
     font-style: italic;
     list-style: none;
-
 }
-
 
 .menu li {
     color: rgb(2, 2, 2);
     width: 80%;
     padding-top: 5%;
     margin-top: 9px;
-
     cursor: pointer;
 }
 

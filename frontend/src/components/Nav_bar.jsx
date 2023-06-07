@@ -1,4 +1,3 @@
-
 import "../styling/Sidebar.css"
 
 
@@ -16,19 +15,16 @@ const NavgationBar = () => {
         window.location.href = '/Planner'
     }
 
-
-
     return (
-
         <div className="NavgationBar">
-            <div id="sidebarBox">
-                <div className="menu"><li onClick={OnClickHome}> Home </li>
-                    <li onClick={OnClickDetails}> Details</li>
-                    <li onClick={OnClickPlanner}> Schedule</li></div>
+            <div className="sidebarBox">
+                <div className="menu">
+                    <li onClick={OnClickHome}>Home</li>
+                    <li onClick={OnClickDetails}>Details</li>
+                    <li onClick={OnClickPlanner}>Schedule</li>
+                </div>
             </div>
         </div>
-
-
     )
 }
 
