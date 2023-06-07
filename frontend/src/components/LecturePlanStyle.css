@@ -1,63 +1,41 @@
 .plan {
     background-color: salmon;
-  /*  height: 100vh;
-    width: 100vw;
-    display: grid;
-    grid-template-rows: 500px 500px 500px;
-    grid-template-columns: 100px 600px;
-    */
+    width: 100%;
+    padding: 0;
+    margin: 0;
 
     
 }
 
-.lecture-image{
-    background-color: lightblue;
+.headerContainer{
+    margin-bottom: 4em;
+}
 
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 4;
-    grid-column-end: 5;
-    
+.lectureImage{
+    border: 2px solid black;
+    width: 100%;
+    height: 525px;
+    display: flex;
+
+
+
 }
 
 .content{
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-evenly;
     width: 100%;
 }
 
-.learningOutcomeComponent{
+.learningOutcome-Component{
     width: 40%;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 .recipeComponent{
     width: 40%;
-    border: 1px solid black;
+    
 }
-
-/*.teaching-requirements  {
-
-    background-color: rgb(238, 144, 167);
-    grid-row-start: 3;
-    grid-row-end: 4;
-    grid-column-start: 5;
-    grid-column-end: 6;
-
-}
-*/
-
-/* .recipeComponent {
-
-    background-color: lightgreen;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    grid-column-start:6;
-    grid-column-end:7;
-
-
-} */
 
 

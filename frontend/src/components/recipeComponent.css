@@ -1,0 +1,22 @@
+.recipeContainer{
+    background-color: bisque;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.ingredientsContainer{
+    border: 1px solid black;
+}
+
+.ingredients{
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.ingrediensElement{
+    border: 1px solid black;
+    display: block;
+}

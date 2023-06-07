@@ -2,22 +2,30 @@ import './LecturePlanStyle.css'
 import React from 'react'
 import RecipeComponent from './RecipeComponent'
 import LearningOutcomeComponent from './LearningOutcomeComponent'
+import Header from './header'
+import lectureImage from '../images/ukensplan.png'
 
 
 
 const LecturePlan = () => {
 
     //let lectureTitle = "lectureTitle"
-    let lectureImage = "lectureImage"
-    let teachingRequirements = "i denne undervisning ska elevene.."
-    let recipe = "oppskrift"
+    //let lectureImage = "lectureImage"
+    let learningOutcomeComponent = "i denne undervisning ska elevene.."
+    let recipeComponent = "oppskrift"
+
 
     return(
-        <article className='plan'>
 
-          <div className='lecture-image'>
-            <div className='lectureImage'>
-               <img src={lectureImage} alt='Lecture Image' />
+
+      <article className='plan'>
+          <div className='headerContainer'>
+            <Header></Header>
+          </div>
+
+
+          <div className='lectureImage'>
+          <img src={lectureImage} alt='Lecture image' />
             </div>
 
 
@@ -33,7 +41,7 @@ const LecturePlan = () => {
               </div>
             </section>
             
-         </div>
+         
 
       </article>
 
@@ -44,35 +52,51 @@ const LecturePlan = () => {
 
 export default LecturePlan;
 
-/* const LecturePlan = ({lectureObject} ) => {
+/* 
+import './LecturePlanStyle.css'
+import React from 'react'
+import RecipeComponent from './RecipeComponent'
+import LearningOutcomeComponent from './LearningOutcomeComponent'
+import Header from './header'
+
+const LecturePlan = ({lectureObject} ) => {
 
   
-    
-    let lectureImage = lectureObject.lecruteImage
-    let teachingRequirements = lectureObject.teachingRequirements
-    let recipe = lectureObject.recipe
-   
-    
+    let lectureImage = lectureObject.lectureImage
+    let learningOutcomeComponent = lectureObject.learningOutcomeComponent
+    let recipeComponent = lectureObject.recipeComponent
+
     return(
-        <article className='lecturePlan'>
-        
-              <div className='lectureImage'>
-               <img src={lectureImage} alt='Lecture Image' />
-            </div>
-
-            <div className='teaching-requirements'>
-              <div className='teachingRequirements'>
-                <p>{teachingRequirements}</p>  
-              </div>
-            </div>
-
-            <div className='recipe'>
-                <h3>Recipe</h3>
-                <p>{recipe}</p>
+      
+        <article className='plan'>
+          <div className='headerContainer'>
+            <Header></Header>
           </div>
+            
+          
+            <div className='lectureImage'>
+               <img src="../images/ukensplan2.jpg" alt='Lecture Image' />
+            </div>
 
-        </div>
+        
+
+            <section className='content'>
+
+              <div className='learningOutcome-Component'>
+              <LearningOutcomeComponent></LearningOutcomeComponent>
+
+      
+              </div>
+
+              <div className="recipeComponent">
+                <RecipeComponent></RecipeComponent>
+              </div>
+            </section>
+            
+         
+
       </article>
+  
 
     );
 
