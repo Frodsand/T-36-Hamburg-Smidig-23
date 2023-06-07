@@ -1,14 +1,17 @@
 .recipeContainer{
     background-color: #F6F3EF;
     border-radius: 1em;
-    padding: 1em;
+    padding: 1em 2em 1em 2em;
+    
 }
 
 .ingredientsContainer{
+    border-bottom: 1px solid black;
+}
+
+.instructions{
 
 }
+
+
    
-.separator{
-    border-top: 1px solid black;
-    width: 80%;
-}
