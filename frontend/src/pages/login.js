@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import LoginForm from '../components/LoginForm';
 
 function Login() {
     const [username, setUsername] = useState('');
@@ -31,7 +32,8 @@ function Login() {
                 username,
                 password,
             }),
-        }).then((response) => response.json())
+        })
+            .then((response) => response.json())
             .then((data) => {
                 // Assuming the API returns a user object if login is successful
                 // Modify the condition based on your API response
@@ -53,29 +55,15 @@ function Login() {
     };
 
     return (
-        <div>
+        <div role="alert">
             <h1>Login</h1>
-            <form onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="username">Username:</label>
-                    <input
-                        type="text"
-                        id="username"
-                        value={username}
-                        onChange={handleUsernameChange}
-                    />
-                </div>
-                <div>
-                    <label htmlFor="password">Password:</label>
-                    <input
-                        type="password"
-                        id="password"
-                        value={password}
-                        onChange={handlePasswordChange}
-                    />
-                </div>
-                <button type="submit">Login</button>
-            </form>
+            <LoginForm
+                username={username}
+                password={password}
+                handleUsernameChange={handleUsernameChange}
+                handlePasswordChange={handlePasswordChange}
+                handleSubmit={handleSubmit}
+            />
         </div>
     );
 }

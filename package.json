@@ -33,6 +33,7 @@
     "test": "cd backend && npm test && cd ../frontend && npm test",
     "test:frontend": "cd frontend && npm test",
     "test:backend": "cd backend && npm test",
+    "test:coverage": "cd backend && npm run test:coverage && cd ../frontend && npm run test:coverage",
     "eject": "cd frontend && npm run eject"
   },
   "eslintConfig": {

@@ -7,9 +7,13 @@ node_modules/
 
 # testing
 coverage/
+__snapshots__/
+
 
 # production
-/build
+build/
+build/asset-manifest.json
+build/index.html
 
 # misc
 .env
