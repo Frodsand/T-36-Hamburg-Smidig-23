@@ -14,12 +14,7 @@ const RecipeComponent = () => {
             <article className="instructionsContainer">
 
                 <h3>Fremgangsmåte</h3>
-                <div className="instructions">
-                    
-
-                        
-                    
-                </div>
+                <div className="instructions"></div>
             </article>
         </section>
     );
