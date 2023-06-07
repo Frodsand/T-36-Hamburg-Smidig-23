@@ -55,3 +55,7 @@
 .nav-bar {
     height: 200%;
 }
+
+.header{
+    max-height: fit-content;
+}

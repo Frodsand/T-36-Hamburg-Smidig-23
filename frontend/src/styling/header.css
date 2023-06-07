@@ -1,4 +1,7 @@
 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #FD7752;
     overflow: hidden;
     position: fixed;
@@ -6,11 +9,12 @@
     left: 0;
     width: 100%;
     z-index: 1;
+    height: 100px;
 }
 
 .logo {
-    height: 100px;
-    width: 110px;
+    height: 80px;
+    width: 100px;
     float: left;
     padding: 14px 16px;
 }
