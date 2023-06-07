@@ -4,48 +4,43 @@ import '../styling/LecturePlanStyle.css'
 import RecipeComponent from './RecipeComponent'
 import LearningOutcomeComponent from './LearningOutcomeComponent'
 import Header from './header'
-import images from '../images/ukensplan.png'
 
 
 const LecturePlan = () => {
 
-    //let lectureTitle = "lectureTitle"
-    //let lectureImage = "lectureImage"
-    let learningOutcomeComponent = "i denne undervisning ska elevene.."
-    let recipeComponent = "oppskrift"
+  const image = require('../resources/images/ukensplan.png')
+  const image2 = require('../resources/images/ukensplan2.jpg')
 
-    return(
+  return (
 
 
-      <article className='plan'>
-          <div className='headerContainer'>
-            <Header />
-          </div>
-          
-          <div className='lectureImage'>
-               <img src={images} alt='Lecture Image' />
-          </div>
+    <article className='plan'>
+      <div className='headerContainer'>
+        <Header />
+      </div>
 
-          <section className='content'>
+      <div className='lectureImage'>
+        <img src={image} alt='something' />
+      </div>
 
-          <div className='learningOutcome-Component'>
-              <LearningOutcomeComponent />
-          </div>
+      <section className='content'>
+
+        <div className='learningOutcome-Component'>
+          <LearningOutcomeComponent />
+        </div>
 
 
-          <div className='lectureImage'>
-          <img src={lectureImage} alt='Lecture image' />
-          </div>
-              <div className="recipeComponent">
-                <RecipeComponent/>
-              </div>
-         </section>
-            
-         
+        <div className='lectureImage'>
+          <img src={image2} alt='Lecture' />
+        </div>
+        <div className="recipeComponent">
+          <RecipeComponent />
+        </div>
+      </section>
 
-      </article>
+    </article>
 
-    );
+  );
 
 
 }
