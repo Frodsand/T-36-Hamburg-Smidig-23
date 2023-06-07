@@ -1,4 +1,4 @@
-import './LectureCardStyle.css'
+import '../styling/lectureCard.css'
 
 const LectureCard = () => {
 

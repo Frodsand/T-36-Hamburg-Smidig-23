@@ -50,29 +50,6 @@ function Schedule () {
             <section className="gridContainer">
             {/* {lectureArray.map((lectureObject, index) => (<LectureCard key={index} lectureObject={lectureObject} />))} */}
               <LectureCard/>
-              <LectureCard/>
-              <LectureCard/>
-              <LectureCard/>
-              <LectureCard/>
-              <LectureCard/>
-              <LectureCard/>
-              <LectureCard/>
-              <LectureCard/>
-              <LectureCard/>
-              <LectureCard/>
-              <LectureCard/>
-              <LectureCard/>
-              <LectureCard/>
-              <LectureCard/>
-              <LectureCard/>
-              <LectureCard/>
-              <LectureCard/>
-              <LectureCard/>
-              <LectureCard/>
-              <LectureCard/>
-              <LectureCard/>
-              <LectureCard/>
-              <LectureCard/>
             </section>
         </div>
     )
