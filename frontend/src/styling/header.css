@@ -1,0 +1,46 @@
+.header {
+    background-color: #FD7752;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo {
+    height: 100x;
+    width: 110px;
+    float: left;
+    padding: 14px 16px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.go-home-button{
+    background-color: #FD7752;
+    border: none;
+    height: 100px;
+    width: 110px;
+}
+
+.user-icon-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    float: right;
+    padding: 14px 16px;
+}
+
+.user-icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
