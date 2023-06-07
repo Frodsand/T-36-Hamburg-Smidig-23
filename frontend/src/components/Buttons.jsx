@@ -1,4 +1,4 @@
-import "./buttons.css"
+import '../styling/buttons.css'
 
 //How to use button components:
 // 1 -> import {PrimaryButton, OutlinePrimaryButton, BigPrimaryButton, OutlineBlackButton, OutlineWhiteButton} from '../components/Buttons'
