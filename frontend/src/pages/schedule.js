@@ -1,8 +1,17 @@
+import '../styling/schedule.css'
+import LectureCard from '../components/LectureCard'
+
+
+let semesterPlanTitle = "Undervisningsplan"
+
 function Schedule () {
+    
     return (
         <div>
-            <h1>Schedule</h1>
-            <p>This is the schedule page</p>
+            <h1>{semesterPlanTitle}</h1>
+            <section className="gridContainer">
+              <LectureCard/>
+            </section>
         </div>
     )
 }
