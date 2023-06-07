@@ -4,17 +4,11 @@ const express = require('express')
 const mongoose = require('mongoose')
 const path = require('path');
 
-const createCollectionAndDocuments = require('../docs/ingredientScript')
 const createLectureCollectionAndDocumets = require('./scripts/lecturesScript')
 const createUsereDocumets = require('./scripts/usersScript')
 
-
-
-const semesterPlanRoutes = require('./routes/semesterPlans')
 const lectureRoutes = require('./routes/lectures')
 const userRoutes = require('./routes/users')
-
-const ingredientRoutes = require('./routes/ingredients')
 
 // create express app
 const app = express()
@@ -35,11 +29,8 @@ app.use((req, res, next) => {
 })
 
 // routes
-app.use('/api/semesterplans',semesterPlanRoutes)
 app.use('/api/lectures',lectureRoutes)
 app.use('/api/users', userRoutes)
-
-app.use('/api/ingredients', ingredientRoutes)
 
 // connect to db
 mongoose.connect(process.env.MONGO_URI)

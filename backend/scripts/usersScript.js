@@ -13,14 +13,12 @@ mongoose.connect(url).then(()=> {
 async function createUserDocuments(){
     try{
         const usersDocuments = [
-            
             {
                 username: "testuser",
-                password: "password",
-                semesterplan: "test plan"
+                password: "password"
             }
         ];
-        
+
         const collectionCount = await usersModel.countDocuments()
 
         if(collectionCount === usersDocuments.length){

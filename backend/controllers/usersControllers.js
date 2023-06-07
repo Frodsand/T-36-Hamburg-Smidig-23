@@ -25,19 +25,6 @@ const getUser = async (req, res) => {
     res.status(200).json(user)
 }
 
-/*// POST a new user
-const createUser = async (req, res) => {
-    const {name, username, password, semesterplan} = req.body
-
-    // add to the database
-    try {
-        const user = await User.create({name, username, password, semesterplan})
-        res.status(200).json(user)
-    } catch (error) {
-        res.status(400).json({ error: error.message })
-    }
-} */
-
 // DELETE a user
 const deleteUser = async (req, res) => {
     const { id } = req.params

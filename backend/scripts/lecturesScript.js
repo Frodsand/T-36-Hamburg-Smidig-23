@@ -13,7 +13,7 @@ mongoose.connect(url).then(()=> {
 async function createLectureDocuments(){
     try{
         const lecturesDocuments = [
-            
+
             {
                 category: "Grunnleggende",
                 level: "1",
@@ -26,7 +26,7 @@ async function createLectureDocuments(){
                 ingredients: "test"
             }
         ];
-        
+
         const collectionCount = await lecturesModel.countDocuments()
 
         if(collectionCount === lecturesDocuments.length){
@@ -40,9 +40,8 @@ async function createLectureDocuments(){
         console.log('Inserted to lectureDB', result);
     } catch (error){
         console.error('Error', error)
-    } finally {
-        //Disconect from MongoDB after the operation
-       // mongoose.disconnect()
+    }finally{
+        //mongoose.disconnect()
     }
 }
 

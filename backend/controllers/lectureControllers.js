@@ -25,19 +25,6 @@ const getLecture = async (req, res) => {
     res.status(200).json(lecture);
 }
 
-// POST and create a new lecture
-/* const createLecture = async (req, res) => {
-    const {name, recipe, learningOutcome} = req.body;
-
-    // add to the database
-    try{
-        const lecture = await Lecture.create({name, recipe, learningOutcome});
-        res.status(200).json(lecture)
-    } catch (error){
-        res.status(400).json({error: error.message});
-    }
-} */
-
 // DELETE a lecture
 const deleteLecture = async (req, res) => {
     const {id} = req.params;
@@ -77,7 +64,6 @@ const updateLecture = async (req, res) => {
 module.exports = {
     getLectures,
     getLecture,
-    //createLecture,
     deleteLecture,
     updateLecture
 };
