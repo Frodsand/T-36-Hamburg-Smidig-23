@@ -7,20 +7,20 @@ const RecipeComponent = () => {
             <div>image</div>
 
             <article className='ingredientsContainer' >
-                <h2>Ingredienser</h2>
+                <h3>Ingredienser</h3>
                 <div className="ingredients">
                     <h5 className="ingrediensElement">ingrediens</h5>
                     <h5 className="ingrediensElement">ingrediens</h5>
                     <h5 className="ingrediensElement">ingrediens</h5>
                     <h5 className="ingrediensElement">ingrediens</h5>
                     <h5 className="ingrediensElement">ingrediens</h5>
-                    <h5 className="ingrediensElement">ingrediens</h5>
-                    
-                    
                 </div>
             </article>
 
-            <article className="instructionsContainer"></article>
+            <article className="instructionsContainer">
+                <div className="separator"></div>
+                <h3>Fremgangsmåte</h3>
+            </article>
         </section>
     );
 }
