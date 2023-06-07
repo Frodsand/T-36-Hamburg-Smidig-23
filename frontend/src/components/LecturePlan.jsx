@@ -3,8 +3,9 @@ import React from 'react'
 import RecipeComponent from './RecipeComponent'
 import LearningOutcomeComponent from './LearningOutcomeComponent'
 import Header from './header'
-import lectureImage from '../images/ukensplan2.jpg'
+import images from '../images/ukensplan.png'
 
+//use the code down below inside the /**/ when we have the data from the database
 
 
 const LecturePlan = () => {
@@ -14,7 +15,6 @@ const LecturePlan = () => {
     let learningOutcomeComponent = "i denne undervisning ska elevene.."
     let recipeComponent = "oppskrift"
 
-
     return(
 
 
@@ -22,10 +22,10 @@ const LecturePlan = () => {
           <div className='headerContainer'>
             <Header></Header>
           </div>
-
-
+            
+          
           <div className='lectureImage'>
-          <img src={lectureImage} alt='Lecture image' />
+               <img src={images} alt='Lecture Image' />
             </div>
 
 
@@ -52,9 +52,11 @@ const LecturePlan = () => {
 
 export default LecturePlan;
 
+
 /* 
-import './LecturePlanStyle.css'
+
 import React from 'react'
+import './LecturePlanStyle.css'
 import RecipeComponent from './RecipeComponent'
 import LearningOutcomeComponent from './LearningOutcomeComponent'
 import Header from './header'
@@ -69,13 +71,14 @@ const LecturePlan = ({lectureObject} ) => {
     return(
       
         <article className='plan'>
+
           <div className='headerContainer'>
             <Header></Header>
           </div>
             
           
             <div className='lectureImage'>
-               <img src="../images/ukensplan2.jpg" alt='Lecture Image' />
+               <img src={lectureImage} alt='Lecture Image' />
             </div>
 
         
@@ -83,13 +86,13 @@ const LecturePlan = ({lectureObject} ) => {
             <section className='content'>
 
               <div className='learningOutcome-Component'>
-              <LearningOutcomeComponent></LearningOutcomeComponent>
+              <LearningOutcomeComponent learningOutcome={learningOutcome} />
 
       
               </div>
 
               <div className="recipeComponent">
-                <RecipeComponent></RecipeComponent>
+                  <RecipeComponent recipeComponent={recipeComponent} />
               </div>
             </section>
             
