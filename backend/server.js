@@ -5,6 +5,10 @@ const mongoose = require('mongoose')
 const path = require('path');
 
 const createCollectionAndDocuments = require('../docs/ingredientScript')
+const createLectureCollectionAndDocumets = require('./scripts/lecturesScript')
+const createUsereDocumets = require('./scripts/usersScript')
+
+
 
 const semesterPlanRoutes = require('./routes/semesterPlans')
 const lectureRoutes = require('./routes/lectures')
@@ -37,11 +41,8 @@ app.use('/api/users', userRoutes)
 
 app.use('/api/ingredients', ingredientRoutes)
 
-
 // connect to db
-mongoose.connect(process.env.MONGO_URI,{
-    dbName: 'chewed'
-})
+mongoose.connect(process.env.MONGO_URI)
     .then(() => {
         // listen for requests
         app.listen(process.env.PORT, () => {

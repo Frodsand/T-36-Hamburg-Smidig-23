@@ -11,8 +11,10 @@ router.get('/', getUsers)
 // GET one user
 router.get('/:id', getUser)
 
+/*
 // POST a new user
 router.post('/', createUser)
+*/
 
 // DELETE a new user
 router.delete('/:id', deleteUser)

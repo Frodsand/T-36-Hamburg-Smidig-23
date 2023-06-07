@@ -11,7 +11,7 @@ router.get('/', getLectures)
 router.get('/:id', getLecture)
 
 // POST a new lecture
-router.post('/', createLecture)
+//router.post('/', createLecture)
 
 // DELETE a lecture
 router.delete('/:id', deleteLecture)

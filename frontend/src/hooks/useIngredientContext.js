@@ -1,12 +1,8 @@
-import { IngredientContext } from "../context/ingredientContext";
-import { useContext } from "react";
+import { IngredientsContext } from '../context/IngredientContext';
+import {useContext} from 'react'
 
 export const useIngredientContext = () => {
-    const context = useContext(IngredientContext);
+    const context = useContext(IngredientsContext)
 
-    if(!context){
-        throw Error("woops");
-    }
-
-    return context;
+    return context
 }

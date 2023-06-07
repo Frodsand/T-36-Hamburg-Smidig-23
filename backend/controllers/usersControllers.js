@@ -25,7 +25,7 @@ const getUser = async (req, res) => {
     res.status(200).json(user)
 }
 
-// POST a new user
+/*// POST a new user
 const createUser = async (req, res) => {
     const {name, username, password, semesterplan} = req.body
 
@@ -36,7 +36,7 @@ const createUser = async (req, res) => {
     } catch (error) {
         res.status(400).json({ error: error.message })
     }
-}
+} */
 
 // DELETE a user
 const deleteUser = async (req, res) => {
@@ -77,7 +77,7 @@ const updateUser = async (req, res) => {
 module.exports = {
     getUsers,
     getUser,
-    createUser,
+    //createUser,
     deleteUser,
     updateUser
 };

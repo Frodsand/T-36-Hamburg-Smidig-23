@@ -26,7 +26,7 @@ const getLecture = async (req, res) => {
 }
 
 // POST and create a new lecture
-const createLecture = async (req, res) => {
+/* const createLecture = async (req, res) => {
     const {name, recipe, learningOutcome} = req.body;
 
     // add to the database
@@ -36,7 +36,7 @@ const createLecture = async (req, res) => {
     } catch (error){
         res.status(400).json({error: error.message});
     }
-}
+} */
 
 // DELETE a lecture
 const deleteLecture = async (req, res) => {
@@ -77,7 +77,7 @@ const updateLecture = async (req, res) => {
 module.exports = {
     getLectures,
     getLecture,
-    createLecture,
+    //createLecture,
     deleteLecture,
     updateLecture
 };
