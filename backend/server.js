@@ -12,6 +12,8 @@ const createUsersDocuments = require('./scripts/usersScript')
 
 const lectureRoutes = require('./routes/lectures')
 const userRoutes = require('./routes/users')
+const loginRoutes = require('./routes/login')
+
 
 // create express app
 const app = express()
@@ -36,6 +38,8 @@ app.use(cors());
 // routes
 app.use('/api/lectures',lectureRoutes)
 app.use('/api/users', userRoutes)
+app.use('/api/login', loginRoutes)
+
 
 // connect to db
 mongoose.connect(process.env.MONGO_URI)
