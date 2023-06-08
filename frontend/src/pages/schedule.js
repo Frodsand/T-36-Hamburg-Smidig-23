@@ -1,4 +1,5 @@
 import '../styling/schedule.css'
+import Header from '../components/header';
 import LectureCard from '../components/LectureCard'
 import { useEffect } from "react";
 import { useLectureContext } from "../hooks/useLectureContext";
@@ -30,7 +31,10 @@ function Schedule () {
     
     return (
         <div>
-            <h1>{semesterPlanTitle}</h1>
+          <div className='header'>
+                <Header />
+            </div>
+            <h1 className="semester-plan-title">{semesterPlanTitle}</h1>
             <section className="gridContainer">
               {lectures && lectures.map((lecture) => (<LectureCard  lectureObject={lecture} />))}
             </section>

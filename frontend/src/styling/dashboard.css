@@ -1,14 +1,14 @@
 .mainGrid {
     display: grid;
+    margin: 0;
     height: 100vh;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 150px;
     padding-right: 100%;
-    margin: 0px;
     margin-top: -2%;
-    background-color: #f5f5f5;
-    border-radius: 10px;
+    background-color: #f8f8f8;
+    border-radius: 0px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
@@ -53,7 +53,7 @@
 }
 
 .nav-bar {
-    height: 200%;
+    height: 180%;
 }
 
 .header{
