@@ -14,8 +14,8 @@ async function createUserDocuments(){
     try{
         const usersDocuments = [
             {
-                username: "testuser",
-                password: "password"
+                username: "myUsername",
+                password: "myPassword"
             }
         ];
 
