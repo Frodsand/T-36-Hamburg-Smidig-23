@@ -1,6 +1,7 @@
+import React from 'react';
 import NavgationBar from '../components/Nav_bar';
 import Header from '../components/header';
-import Lectures from '../components/showLectures';
+import Lectures from '../components/ShowLectures';
 import "../styling/dashboard.css"
 
 function Dashboard() {

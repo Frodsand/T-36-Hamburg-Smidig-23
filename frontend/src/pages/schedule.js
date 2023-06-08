@@ -1,5 +1,6 @@
-import '../styling/schedule.css'
-import LectureCard from '../components/LectureCard'
+import React from 'react';
+import '../styling/schedule.css';
+import LectureCard from '../components/LectureCard';
 
 
 let semesterPlanTitle = "Undervisningsplan"
