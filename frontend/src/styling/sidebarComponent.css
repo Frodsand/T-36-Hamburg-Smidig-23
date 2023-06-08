@@ -1,0 +1,74 @@
+.sidebarComponent{
+    background-color: rgb(223, 223, 223);
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+
+}
+
+.subtitle{
+    text-align: left;
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
+.inputContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1em;
+
+}
+
+.searchbar{
+    width: 100%;
+    padding: 1em;
+    border-radius: 5em;
+    border: none;
+    margin-bottom: 1em;
+
+}
+
+.select{
+    width: 33%;
+    display: block;
+    padding: 1em;
+    border-radius: 2em;
+    border: none;
+
+}
+
+.lectureCardsContainer{
+    height: 40em;
+    width: 100%;
+    border: 1px solid;
+    margin-bottom: 1em;
+}
+
+.checkListContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+}
+
+.checkListElement{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0.5em;
+}
+
+.checkListIcon{
+    background-color: rgb(51, 217, 51);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 0.5em;
+}
