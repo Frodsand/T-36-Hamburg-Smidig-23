@@ -7,16 +7,25 @@ const SidebarComponent = () => {
     return (
         <section className="sidebarComponent">
             <nav className="inputContainer">
-                <input className="searchbar" type="text" />
-                <select className="selectCategory" name="Kategori" id="category"></select>
-                <select className="selectLevel" name="Nivå" id="level"></select>
-                <select className="selectAllergies" name="Allergier" id="allergies"></select>
+                <input className="searchbar" type="text" placeholder='Søk etter undervisninger' />
+
+                <select className="select" name="Kategori" id="category">
+                    <option value="">Kategori</option>
+                </select>
+
+                <select className="select" name="Nivå" id="level">
+                    <option value="">Nivå</option>
+                </select>
+
+                <select className="select" name="Allergier" id="allergies">
+                    <option value="">Allergier</option>
+                </select>
             </nav>
 
-            <h3>Undervisninger</h3>
+            <h3 className='subtitle'>Undervisninger</h3>
             <section className="lectureCardsContainer"></section>
 
-            <h3>Sjekkliste</h3>
+            <h3 className='subtitle'>Sjekkliste</h3>
             <section className='checkListContainer'>
                 <div className='checkListElement'>
                     <div className='checkListIcon'></div>

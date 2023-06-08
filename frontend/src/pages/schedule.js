@@ -7,6 +7,7 @@ let semesterPlanTitle = "Undervisningsplan"
 
 function Schedule () {
     
+    
     return (
         <div>
             <h1>{semesterPlanTitle}</h1>
