@@ -1,6 +1,8 @@
 import '../styling/lectureCard.css'
 
-const LectureCard = () => {
+const LectureCard = ({lectureObject}) => {
+
+    console.log("lectureObject inne i lecture card: " + lectureObject)
 
     let category = "kategori"
     let level = "Nivå 1"
