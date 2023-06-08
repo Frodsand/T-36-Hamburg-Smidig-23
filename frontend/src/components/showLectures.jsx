@@ -28,8 +28,8 @@ const Lectures = () => {
                 <h3>{lecture.title}</h3>
             </div>
         ))}
-      </div>
-    </>
+        </div>
+    </> 
   );
 };
 
