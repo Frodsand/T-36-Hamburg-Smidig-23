@@ -29,7 +29,7 @@ function Schedule () {
         <div>
             <h1>{semesterPlanTitle}</h1>
             <section className="gridContainer">
-              {lectures.map((lecture) => (<LectureCard  lectureObject={lecture} />))}
+              {lectures && lectures.map((lecture) => (<LectureCard  lectureObject={lecture} />))}
             </section>
         </div>
     )
