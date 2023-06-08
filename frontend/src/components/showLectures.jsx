@@ -29,8 +29,8 @@ const Lectures = () => {
                 <p>{lecture.level}</p>
             </div>
         ))}
-      </div>
-    </>
+        </div>
+    </> 
   );
 };
 

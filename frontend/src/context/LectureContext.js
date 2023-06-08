@@ -6,7 +6,7 @@ export const lecturesReducer = (state, action) => {
     if(action.type === 'SET_LECTURES'){
         return { lectures: action.payload }
     }else{
-        return state;
+    return state;
     }
 }
 
