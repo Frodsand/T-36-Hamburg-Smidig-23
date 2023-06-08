@@ -22,11 +22,7 @@ const usersSchema = new Schema({
     password: {
         type: String,
         required: [true, 'password is required']
-    },
-    semesterplan:{
-        type: []
     }
-
 })
 
 module.exports = mongoose.model("users", usersSchema);
