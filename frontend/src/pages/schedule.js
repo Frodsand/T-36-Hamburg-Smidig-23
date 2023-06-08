@@ -2,7 +2,7 @@ import '../styling/schedule.css'
 import LectureCard from '../components/LectureCard'
 import { useEffect } from "react";
 import { useLectureContext } from "../hooks/useLectureContext";
-import SidebarComponent from '../components/SidebarComponent'
+
 
 
 let semesterPlanTitle = "Undervisningsplan"
@@ -31,10 +31,6 @@ function Schedule () {
             <h1>{semesterPlanTitle}</h1>
             <section className="gridContainer">
               {lectures.map((lecture) => (<LectureCard  lectureObject={lecture} />))}
-            </section>
-
-            <section className='sidebarContainer'>
-                <SidebarComponent></SidebarComponent>
             </section>
         </div>
     )
