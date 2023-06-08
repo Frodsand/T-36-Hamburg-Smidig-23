@@ -25,7 +25,19 @@ h4{
     font-weight: 600;
 }
 
+h5{
+    font-size: 20;
+    font-weight: 400;
+}
+
 p{
     font-size: 15;
     font-weight: 400;
+}
+
+:root{
+    --primaryColor: #FF5B2E;
+    --secundaryColor: #FCF0D9;
+    --tertiaryColor: #182133;
+    --quarternaryColor: #F6F3EF;
 }
