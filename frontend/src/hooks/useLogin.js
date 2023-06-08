@@ -32,11 +32,12 @@ export const useLogin = () => {
                 // update the auth context
                 await dispatch({ type: 'LOGIN', payload: json})
                 navigate('/home');
-                // updating the loading state
+                
             }
         } catch (err){
             setError(err.message);
         } finally {
+            // updating the loading state
             setIsLoading(false)
         }
     }
