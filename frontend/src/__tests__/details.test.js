@@ -5,7 +5,7 @@ import '@testing-library/jest-dom/extend-expect';
 import DetailPage from "../pages/details";
 jest.mock('../components/LecturePlan', () => 'MockedLecturesPlan');
 
-test('Snapshot Dashboard component', () => {
+test('Snapshot DetailPage component', () => {
     const component = TestRenderer.create(
         <MemoryRouter>
             <DetailPage />

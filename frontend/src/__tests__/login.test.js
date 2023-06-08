@@ -1,5 +1,5 @@
 import React from 'react';
-import TestRenderer from 'react-test-renderer'; // Update the import statement
+import TestRenderer from 'react-test-renderer';
 import { render, fireEvent } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import Login from '../pages/login';
@@ -7,8 +7,7 @@ import Login from '../pages/login';
 
 test('Snapshot login page', () => {
 
-    //Checks snapshot of the login component
-    const component = TestRenderer.create( // Update the function name
+    const component = TestRenderer.create(
         <MemoryRouter>
             <Login />
         </MemoryRouter>
