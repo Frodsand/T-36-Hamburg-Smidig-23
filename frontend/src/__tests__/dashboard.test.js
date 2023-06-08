@@ -2,6 +2,7 @@ import React from 'react';
 import TestRenderer from 'react-test-renderer';
 import { MemoryRouter } from 'react-router-dom';
 import Dashboard from '../pages/dashboard';
+import { render } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 
 jest.mock('../components/Nav_bar', () => 'MockedNavigationBar');
@@ -15,4 +16,10 @@ test('Snapshot Dashboard component', () => {
         </MemoryRouter>
     );
     expect(component.toJSON()).toMatchSnapshot();
+});
+test('check heading content', () => {
+    const { getByText } = render(<Dashboard />);
+    const headingElement = getByText('Min årsplan');
+
+    expect(headingElement).toBeInTheDocument();
 });
