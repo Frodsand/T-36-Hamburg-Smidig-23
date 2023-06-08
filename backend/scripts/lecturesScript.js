@@ -28,7 +28,7 @@ async function createLectureDocuments(){
             {
                 category: "Matvaregrupper",
                 level: "2",
-                title: "Introduksjon til sunn matlaging",
+                title: "Grønnsaker og frukt",
                 lectureImage: "matvaregrupperImage.png",
                 learningOutcome: "I denne leksjonen vil du bli kjent med forskjellige grønnsaker og frukt. Vi vil utforske fargerike grønnsaker som gulrøtter, grønne grønnsaker som brokkoli, og saftige frukter som epler og appelsiner. Du vil lære om hvorfor det er bra for kroppen din å spise ulike typer grønnsaker og frukt hver dag.",
                 recipeTitle: "Grønnsakswraps",
