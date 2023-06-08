@@ -29,8 +29,7 @@ function Schedule () {
         <div>
             <h1>{semesterPlanTitle}</h1>
             <section className="gridContainer">
-              <LectureCard/>
-              
+              {lectures.map((lecture) => (<LectureCard  lectureObject={lecture} />))}
             </section>
         </div>
     )

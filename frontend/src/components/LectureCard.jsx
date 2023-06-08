@@ -4,10 +4,10 @@ const LectureCard = ({lectureObject}) => {
 
     console.log("lectureObject inne i lecture card: " + lectureObject)
 
-    let category = "kategori"
-    let level = "Nivå 1"
-    let lectureTitle = "Undervisningstittel"
-    let recipeTitle = "Oppskrift tittel"
+    let category = lectureObject.category
+    let level = lectureObject.level
+    let lectureTitle = lectureObject.title
+    let recipeTitle = lectureObject.recipeTitle
     let image = "image"
     
 
@@ -20,7 +20,7 @@ const LectureCard = ({lectureObject}) => {
             
             <div className='top-info'>
                 <p className='category'>{category}</p>
-                <p>{level}</p>
+                <p>{"Nivå " + level}</p>
             </div>
 
             <h3 className='lectureTitle'>{lectureTitle}</h3>
