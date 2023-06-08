@@ -23,9 +23,10 @@ const Lectures = () => {
     <>
       <div>
         This is an example. To be removed.
-        {lectures.map((lecture) => (
-            <div key={lecture._id}>
-                <h3>{lecture.title}</h3>
+        {lectures && lectures.map((lecture) => (
+            <div key={lecture.id}>
+                <h2>{lecture.title}</h2>
+                <p>{lecture.level}</p>
             </div>
         ))}
       </div>
