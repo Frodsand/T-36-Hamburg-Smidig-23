@@ -5,45 +5,44 @@ import { useLectureContext } from "../hooks/useLectureContext";
 import SidebarComponent from '../components/SidebarComponent';
 import Header from '../components/header';
 
-
-
 let semesterPlanTitle = "Undervisningsplan"
 
-function Schedule () {
+function Schedule() {
 
-    const { lectures, dispatch } = useLectureContext();
+  const { lectures, dispatch } = useLectureContext();
 
-    useEffect(() => {
-        const fetchLectures = async () => {
-          const response = await fetch("/api/lectures");
-          const json = await response.json();
-    
-          if (response.ok) {
-            dispatch({ type: "SET_LECTURES", payload: json });
-          }
-        };
-    
-        fetchLectures();
-      }, [dispatch]);
-    
-      console.log('lectures', lectures)
-    
-    
-    return (
-        <div>
-          <div className='header'>
-                <Header />
-            </div>
-            <h1 className="semester-plan-title">{semesterPlanTitle}</h1>
-            <section className="gridContainer">
-              {lectures && lectures.map((lecture) => (<LectureCard  lectureObject={lecture} />))}
-            </section>
+  useEffect(() => {
+    const fetchLectures = async () => {
+      const response = await fetch("/api/lectures");
+      const json = await response.json();
 
-            <section className='sidebarContainer'>
-                <SidebarComponent></SidebarComponent>
-            </section>
-        </div>
-    )
+      if (response.ok) {
+        dispatch({ type: "SET_LECTURES", payload: json });
+      }
+    };
+
+    fetchLectures();
+  }, [dispatch]);
+
+  console.log('lectures', lectures)
+
+  return (
+    <div>
+      <div className='header'>
+        <Header />
+      </div>
+      <h1 className='semester-plan-title'>{semesterPlanTitle}</h1>
+      <section className="gridContainer">
+        {lectures && lectures.map((lecture) => (
+          <LectureCard key={lecture._id} lectureObject={lecture} />
+        ))}
+      </section>
+
+      <section className='sidebarContainer'>
+        <SidebarComponent />
+      </section>
+    </div>
+  )
 }
 
 export default Schedule;

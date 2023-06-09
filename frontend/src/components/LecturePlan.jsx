@@ -6,7 +6,7 @@ import LearningOutcomeComponent from './LearningOutcomeComponent'
 import Header from './header'
 
 
-const LecturePlan = () => {
+const LecturePlan = ({lectureObject}) => {
 
   const image = require('../resources/images/ukensplan.png')
   const image2 = require('../resources/images/ukensplan2.jpg')
@@ -26,7 +26,7 @@ const LecturePlan = () => {
       <section className='content'>
 
         <div className='learningOutcome-Component'>
-          <LearningOutcomeComponent />
+          <LearningOutcomeComponent learningOutcome={lectureObject.learningOutcome}/>
         </div>
 
 
@@ -34,7 +34,7 @@ const LecturePlan = () => {
           <img src={image2} alt='Lecture' />
         </div>
         <div className="recipeComponent">
-          <RecipeComponent />
+          <RecipeComponent lectureObject={lectureObject}/>
         </div>
       </section>
 
