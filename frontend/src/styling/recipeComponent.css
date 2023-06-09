@@ -1,12 +1,9 @@
 .recipeContainer{
-    background-color: var(--quarternaryColor);
     border-radius: 1em;
     padding: 1em 2em 1em 2em;
+    background-color: #FCF0D9;
 }
 
 .ingredientsContainer{
     border-bottom: 1px solid black;
 }
-
-
-   
