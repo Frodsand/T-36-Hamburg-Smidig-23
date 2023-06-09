@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import LoginForm from '../components/LoginForm';
+import '../styling/Login.css'; // Import the CSS file
+import chewLogo from '../resources/images/ChewLogo2.png';
 
 function Login() {
     const [username, setUsername] = useState('');
@@ -55,8 +57,11 @@ function Login() {
     };
 
     return (
-        <div role="alert">
-            <h1>Login</h1>
+        <div role="alert" className="login-container">
+            <div className="login-logo">
+                <img src={chewLogo} alt="Logo" />
+            </div>
+            <div className="login-form-container">
             <LoginForm
                 username={username}
                 password={password}
@@ -64,6 +69,7 @@ function Login() {
                 handlePasswordChange={handlePasswordChange}
                 handleSubmit={handleSubmit}
             />
+            </div>
         </div>
     );
 }
