@@ -21,16 +21,7 @@ const Lectures = () => {
 
   return (
     <>
-      <div>
-        This is an example. To be removed.
-        {lectures && lectures.map((lecture) => (
-            <div key={lecture.id}>
-                <h2>{lecture.title}</h2>
-                <p>{lecture.level}</p>
-            </div>
-        ))}
-        </div>
-    </> 
+    </>
   );
 };
 
