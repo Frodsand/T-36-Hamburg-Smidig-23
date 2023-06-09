@@ -9,7 +9,7 @@ const RecipeComponent = ({lectureObject}) => {
 
             <article className='ingredientsContainer' >
                 <p>{lectureObject && lectureObject.ingredients.map((i) => {
-                    return <li>{i}</li>
+                    return <li key={i._id}>{i}</li>
                 })}</p>
                 <div className="ingredients"></div>
             </article>
