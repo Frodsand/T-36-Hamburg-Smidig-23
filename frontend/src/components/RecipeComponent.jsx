@@ -1,18 +1,21 @@
 import "../styling/recipeComponent.css"
 
-const RecipeComponent = () => {
+const RecipeComponent = ({lectureObject}) => {
+
     return (
         <section className='recipeContainer'>
-            <h2>Oppskrift</h2>
+            <h2>{lectureObject.recipeTitle}</h2>
             <div className="imageContainer"></div>
 
             <article className='ingredientsContainer' >
-                <h3>Ingredienser</h3>
+                <p>{lectureObject && lectureObject.ingredients.map((i) => {
+                    return <li key={i}>{i}</li>
+                })}</p>
                 <div className="ingredients"></div>
             </article>
 
             <article className="instructionsContainer">
-                <h3>Fremgangsmåte</h3>
+                <p>{lectureObject.instructions}</p>
                 <div className="instructions"></div>
             </article>
         </section>
