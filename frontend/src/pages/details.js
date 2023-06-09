@@ -5,7 +5,7 @@ import LecturePlan from'../components/LecturePlan'
 function DetailPage (){
     return (
         <div>
-            <h1>Denne ukes plan</h1>
+            <h1 className="week-plan">Denne ukes plan</h1>
             
             <div>
                 <LecturePlan/>
