@@ -19,6 +19,7 @@
     "babel": "^6.23.0",
     "babel-jest": "^29.5.0",
     "concurrently": "^8.0.1",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^27.5.1",
     "nodemon": "^2.0.22",
     "supertest": "^6.3.3"

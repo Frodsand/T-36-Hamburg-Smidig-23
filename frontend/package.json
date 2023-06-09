@@ -63,6 +63,14 @@
     "testEnvironment": "jsdom",
     "transform": {
       "^.+\\.jsx?$": "babel-jest"
+    },
+    "testPathIgnorePatterns": [
+      ",/node_modules/"
+    ],
+    "moduleNameMapper": {
+      "\\.(css)$": "<rootDir>/__mocks__/styleMock.js",
+      "^../styling/(.*)$": "<rootDir>/__mocks__/stylingMock.js",
+      "\\.(png)$": "<rootDir>/__mocks__/logo.png"
     }
   },
   "development": [

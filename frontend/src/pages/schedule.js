@@ -1,8 +1,6 @@
-import '../styling/schedule.css'
-import LectureCard from '../components/LectureCard'
-import { useEffect } from "react";
-import { useLectureContext } from "../hooks/useLectureContext";
-import SidebarComponent from '../components/SidebarComponent';
+import React from 'react';
+import '../styling/schedule.css';
+import LectureCard from '../components/LectureCard';
 import Header from '../components/header';
 
 let semesterPlanTitle = "Undervisningsplan"

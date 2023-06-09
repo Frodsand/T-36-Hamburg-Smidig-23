@@ -1,3 +1,4 @@
+import React from 'react';
 import '../styling/details.css'
 import LecturePlan from'../components/LecturePlan'
 import { useLocation } from 'react-router-dom'
