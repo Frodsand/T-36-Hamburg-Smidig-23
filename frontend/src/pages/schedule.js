@@ -1,17 +1,7 @@
-<<<<<<< HEAD
 import React from 'react';
 import '../styling/schedule.css';
 import LectureCard from '../components/LectureCard';
-=======
-import '../styling/schedule.css'
-import LectureCard from '../components/LectureCard'
-import { useEffect } from "react";
-import { useLectureContext } from "../hooks/useLectureContext";
-import SidebarComponent from '../components/SidebarComponent';
 import Header from '../components/header';
-
->>>>>>> 78adfc154119bbd5c0750018c05ecbce7288a7a8
-
 
 let semesterPlanTitle = "Undervisningsplan"
 
