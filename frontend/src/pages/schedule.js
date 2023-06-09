@@ -2,6 +2,9 @@ import React from 'react';
 import '../styling/schedule.css';
 import LectureCard from '../components/LectureCard';
 import Header from '../components/header';
+import SidebarComponent from '../components/SidebarComponent';
+import { useLectureContext } from '../hooks/useLectureContext';
+import { useEffect } from 'react';
 
 let semesterPlanTitle = "Undervisningsplan"
 
