@@ -1,11 +1,18 @@
 import {createContext, useReducer, useEffect} from 'react'
+//import { useNavigate } from 'react-router-dom';
 
 export const AuthContext = createContext()
 
 export const authReducer = (state, action) => {
+    
+
     if(action.type === 'LOGIN'){
         return { user: action.payload}
-    } else {
+    } else if(action.type === 'LOGOUT'){
+        return { user: null }
+        
+    }
+    else {
         return state
     }
 }
