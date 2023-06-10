@@ -30,7 +30,7 @@ export const useLogin = () => {
                 localStorage.setItem('user', JSON.stringify(json))
 
                 // update the auth context
-                await dispatch({ type: 'LOGIN', payload: json})
+                dispatch({ type: 'LOGIN', payload: json})
                 navigate('/home');
                 
             }
