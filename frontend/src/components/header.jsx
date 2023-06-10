@@ -25,7 +25,7 @@ const Header = () => {
             </button>
             { user && (
             <div> 
-            <span>Logged in user: { user.username }</span>
+            <span>User: { user.username }</span>
             </div>
             )}
             <div>
