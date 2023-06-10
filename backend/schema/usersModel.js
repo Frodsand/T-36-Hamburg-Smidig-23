@@ -1,4 +1,5 @@
 const mongoose = require("mongoose")
+const bcrypt = require('bcrypt')
 
 const Schema = mongoose.Schema
 
@@ -38,7 +39,7 @@ usersSchema.statics.login = async function(username, password){
         throw Error('Incorrect username')
     }
 
-    const passwordMatch = (password === user.password)
+    const passwordMatch = bcrypt.compare(password, user.password)
 
     if(!passwordMatch){
         throw Error('Incorrect password')
