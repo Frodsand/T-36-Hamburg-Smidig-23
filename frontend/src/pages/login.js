@@ -11,7 +11,7 @@ function Login() {
     const [password, setPassword] = useState('');
    // const navigate = useNavigate();
    // const {user} = useAuthContext()
-    const { login, isLoading, error } = useLogin();
+   const { login, error } = useLogin();
     const handleUsernameChange = (e) => {
         setUsername(e.target.value);
     };
@@ -26,12 +26,10 @@ function Login() {
         console.log('Password:', password);
        
         await login(username, password)
-        console.log("this is lets login")
-      
+
+            // Clear the form fields
             setUsername('');
             setPassword('');
-
-        // Clear the form fields
     };
 
     return (
