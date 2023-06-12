@@ -1,25 +1,32 @@
 import "../styling/recipeComponent.css"
 
-const RecipeComponent = ({lectureObject}) => {
+const RecipeComponent = ({ lectureObject }) => {
+  const splitInstructions = lectureObject.instructions.split('\n');
 
-    return (
-        <section className='recipeContainer'>
-            <h2>{lectureObject.recipeTitle}</h2>
-            <div className="imageContainer"></div>
+  return (
+    <section className='recipeContainer'>
+      <h3>{lectureObject.recipeTitle}</h3>
+      <div className="imageContainer"></div>
 
-            <article className='ingredientsContainer' >
-                <p>{lectureObject && lectureObject.ingredients.map((i) => {
-                    return <li key={i}>{i}</li>
-                })}</p>
-                <div className="ingredients"></div>
-            </article>
+      <article className='ingredientsContainer'>
+        <p>
+          {lectureObject && lectureObject.ingredients.map((i) => {
+            return <li key={i}>{i}</li>
+          })}
+        </p>
+        <div className="ingredients"></div>
+      </article>
 
-            <article className="instructionsContainer">
-                <p>{lectureObject.instructions}</p>
-                <div className="instructions"></div>
-            </article>
-        </section>
-    );
+      <article className="instructionsContainer">
+        <p>
+          {splitInstructions.map((instruction, index) => {
+            return <span key={index}>{instruction}<br /></span>;
+          })}
+        </p>
+        <div className="instructions"></div>
+      </article>
+    </section>
+  );
 }
 
-export default RecipeComponent
+export default RecipeComponent;
