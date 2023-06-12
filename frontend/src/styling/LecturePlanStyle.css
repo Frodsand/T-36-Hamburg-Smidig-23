@@ -61,10 +61,24 @@ body{
 .week-plan {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding-top: 8%;
     font-weight: bold;
-    align-items: center;
-    color: black;
+    color: #FD7752;
+    border-width: 1px;
     font-family: sans-serif;
     background-color: #f5f5f5;
+}
+
+
+.learningoutcometitle {
+    font-weight: bold;
+    margin-bottom: 2em;
+    color: #FD7752;
+    text-align: center;
+}
+.titleIngredients{
+    margin-bottom: 2em;
+    font-weight: bold;
+    color: #FD7752;
 }

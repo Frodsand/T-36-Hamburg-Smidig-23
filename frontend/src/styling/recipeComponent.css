@@ -1,9 +1,24 @@
 .recipeContainer{
     border-radius: 1em;
     padding: 1em 2em 1em 2em;
-    background-color: #FCF0D9;
+    background-color: #FCF0D9;   
+
 }
 
 .ingredientsContainer{
     border-bottom: 1px solid black;
+    margin-bottom: 2em;
+
+}
+.recipeTitle {
+
+    font-weight: bold;
+    color: #FD7752;
+    text-align: center;
+}
+.titleInstructions{
+    
+    font-weight: bold;
+    color: #FD7752;
+    
 }
