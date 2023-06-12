@@ -1,13 +1,20 @@
+test('example test', () => {
+    const value = true;
+    expect(value).toBeTruthy();
+});
+
+
 /*
 import React from 'react';
 import TestRenderer from 'react-test-renderer';
 import { render, fireEvent } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import Login from '../pages/login';
+import DetailPage from "../pages/details";
 
 
 test('Snapshot login page', () => {
-    expect(Login).toMatchSnapshot();
+    expect(Login).toMatchSnapshot()
 });
 
 

@@ -70,8 +70,7 @@
     "moduleNameMapper": {
       "\\.(css)$": "<rootDir>/__mocks__/styleMock.js",
       "^../styling/(.*)$": "<rootDir>/__mocks__/stylingMock.js",
-      "\\.(png)$": "<rootDir>/__mocks__/*.png",
-      "^ChewLogo\\.png\\.url$": "<rootDir>/resources/logo2/ChewLogo.png.url"
+      "\\.(png)$": "<rootDir>/__mocks__/*.png"
 
     }
   },
