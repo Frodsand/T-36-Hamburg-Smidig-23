@@ -5,7 +5,7 @@ const LectureCard = ({ lectureObject }) => {
 
     const navigate = useNavigate()
 
-    const handleOnCLick = () => {
+    const handleOnClick = () => {
         navigate('/details', { state: { lectureObject } })
     }
 
@@ -17,7 +17,7 @@ const LectureCard = ({ lectureObject }) => {
                 <p>{"Nivå " + lectureObject.level}</p>
             </div>
 
-            <h3 className='lectureTitle'>{lectureObject.title}</h3>
+            <h3 className='lectureTitle'>{lectureObject.lectureTitle}</h3>
             <p className='recipe-info_heading'>Praktisk oppgave:</p>
 
             <div className='recipe-info'>
@@ -34,7 +34,13 @@ const LectureCard = ({ lectureObject }) => {
                 </div>
 
             </div>
-            <button onClick={handleOnCLick}>Se undervisningsplan</button>
+
+
+            <button onClick={handleOnClick}>Se undervisningsplan</button>
+
+
+
+
         </article>
     )
 }
