@@ -11,7 +11,7 @@ function DetailPage (){
 
     return (
         <div>
-            <h1 className="week-plan">{lectureObject.title}</h1>
+            <h2 className="week-plan">{lectureObject.title}</h2>
             <div>
                 <LecturePlan lectureObject={lectureObject} />
             </div>
