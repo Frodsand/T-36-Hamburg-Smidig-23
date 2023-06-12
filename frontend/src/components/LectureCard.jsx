@@ -6,7 +6,7 @@ const LectureCard = ({ lectureObject }) => {
     const navigate = useNavigate()
 
     const handleOnCLick = () => {
-        navigate('/details', { state: { lectureObject } })
+        navigate('/Details', { state: { lectureObject } })
     }
 
     return (
