@@ -29,10 +29,6 @@ const LecturePlan = ({lectureObject}) => {
           <LearningOutcomeComponent learningOutcome={lectureObject.learningOutcome}/>
         </div>
 
-
-        <div className='lectureImage'>
-          <img src={image2} alt='Lecture' />
-        </div>
         <div className="recipeComponent">
           <RecipeComponent lectureObject={lectureObject}/>
         </div>

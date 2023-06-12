@@ -7,10 +7,6 @@ const NavgationBar = () => {
         window.location.href = '/Home'
     }
 
-    const OnClickDetails = () => {
-        window.location.href = '/Details'
-    }
-
     const OnClickPlanner = () => {
         window.location.href = '/Planner'
     }
@@ -20,7 +16,6 @@ const NavgationBar = () => {
             <div className="sidebarBox">
                 <div className="menu">
                     <li onClick={OnClickHome}>Home</li>
-                    <li onClick={OnClickDetails}>Details</li>
                     <li onClick={OnClickPlanner}>Schedule</li>
                 </div>
             </div>
