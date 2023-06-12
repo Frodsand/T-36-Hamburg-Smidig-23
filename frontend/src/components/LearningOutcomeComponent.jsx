@@ -1,7 +1,7 @@
 const LearningOutcomeComponent = ({learningOutcome}) => {
     return (
         <div>
-            <h1>Læringsmål</h1>
+            <h3>Læringsmål</h3>
             <p>{learningOutcome}</p>
         </div>
     )
