@@ -1,28 +1,35 @@
 import '../styling/lectureCard.css'
-import { useNavigate } from 'react-router-dom'
 
 const LectureCard = ({ lectureObject }) => {
 
-    const navigate = useNavigate()
+    console.log("lectureObject inne i lecture card: " + lectureObject)
 
-    const handleOnCLick = () => {
-        navigate('/details', { state: { lectureObject } })
+    let category = lectureObject.category
+    let level = lectureObject.level
+    let lectureTitle = lectureObject.title
+    let recipeTitle = lectureObject.recipeTitle
+    let image = "image"
+
+
+    const handleOnClick = () => {
+        window.location.href = "/Details"
+
     }
 
     return (
         <article className="card">
 
             <div className='top-info'>
-                <p className='category'>{lectureObject.category}</p>
-                <p>{"Nivå " + lectureObject.level}</p>
+                <p className='category'>{category}</p>
+                <p>{"Nivå " + level}</p>
             </div>
 
-            <h3 className='lectureTitle'>{lectureObject.title}</h3>
+            <h3 className='lectureTitle'>{lectureTitle}</h3>
             <p className='recipe-info_heading'>Praktisk oppgave:</p>
 
             <div className='recipe-info'>
                 <div className='recipe-info_text'>
-                    <h3 className='recipeTitle'>{lectureObject.recipeTitle}</h3>
+                    <h3 className='recipeTitle'>{recipeTitle}</h3>
                     <div className='recipe-info_text_allergies'>
                         <p>Allergier:</p>
                         <div className='allergies-images'></div>
@@ -30,11 +37,17 @@ const LectureCard = ({ lectureObject }) => {
                 </div>
 
                 <div className='recipe-info_image'>
-                    {lectureObject.image}
+                    {image}
                 </div>
 
             </div>
-            <button onClick={handleOnCLick}>Se undervisningsplan</button>
+
+
+            <button onClick={handleOnClick}>Se undervisningsplan</button>
+
+
+
+
         </article>
     )
 }
