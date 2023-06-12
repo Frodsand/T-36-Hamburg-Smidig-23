@@ -1,8 +1,18 @@
+import { useEffect, useState } from 'react'
 import '../styling/sidebarComponent.css'
 import {BigPrimaryButton} from './Buttons'
 
 
-const SidebarComponent = () => {
+const SidebarComponent = ({lectures}) => {
+
+    const [lectureArray, setLectureArray] = useState(lectures)
+
+    useEffect(
+        () => {
+            setLectureArray(lectures)
+        }
+    )
+
 
     return (
         <section className="sidebarComponent">
@@ -23,7 +33,27 @@ const SidebarComponent = () => {
             </nav>
 
             <h3 className='subtitle'>Undervisninger</h3>
-            <section className="lectureCardsContainer"></section>
+            <section className="lectureCardsContainer">{
+                lectureArray && lectureArray.map( (lecture) => (
+                        <div className='lectureCard'>
+                            <div className='lectureCard_imageContainer'>
+                            
+                            </div>
+                            
+                            <div className='lectureCard_textContainer'>
+                                <h5 className='lectureCard_lectureCategory'>{lecture.category}</h5>
+                                <h3 className='lectureCard_lectureTitle'>{lecture.lectureTitle}</h3> 
+                                <h5 className='lectureCard_recipeTitle'>{lecture.recipeTitle}</h5> 
+                            </div>
+
+                            <div className='lectureCard_infoContainer'>
+                                <p>{"Nivå: " + lecture.level}</p>
+                                <p>Allergier</p>
+                            </div>
+                            
+                        </div>
+                    ))
+            }</section>
 
             <h3 className='subtitle'>Sjekkliste</h3>
             <section className='checkListContainer'>
