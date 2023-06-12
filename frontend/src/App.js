@@ -5,16 +5,19 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Dashboard from './pages/dashboard';
 import Schedule from './pages/schedule';
 import DetailPage from './pages/details';
+import { useAuthContext } from './hooks/useAuthContext';
 
 function App() {
+    const {user} = useAuthContext()
+    console.log("this is user", user)
   return (
     <>
       <Router>
         <Routes>
           <Route path="/" element={<Login />} />
-          <Route path="/Home" element={<Dashboard />} />
-          <Route path="/Planner" element={<Schedule  />} />
-          <Route path="/Details" element={<DetailPage />} />
+          <Route path="/Home" element={user ? <Dashboard /> : <Login />}/>
+          <Route path="/Planner" element={user ? <Schedule /> : <Login />} />
+          <Route path="/Details" element={user ? <DetailPage /> : <Login />} />
         </Routes>
       </Router>
     </>

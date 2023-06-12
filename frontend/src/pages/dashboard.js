@@ -1,7 +1,6 @@
 import React from 'react';
 import NavgationBar from '../components/Nav_bar';
 import Header from '../components/header';
-import Lectures from '../components/ShowLectures';
 import "../styling/dashboard.css"
 
 function Dashboard() {
@@ -23,7 +22,6 @@ function Dashboard() {
                 <div className='nav-bar'>
                     <NavgationBar />
                 </div>
-                <div><Lectures /></div>
             </div>
         </>
     )
