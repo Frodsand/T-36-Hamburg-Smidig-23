@@ -8,10 +8,9 @@ import Header from './header'
 
 const LecturePlan = ({lectureObject}) => {
 
-  const image = require('../resources/images/ukensplan.png')
- 
-  return (
+const image = require('../resources/images/ukensplan.png')
 
+  return (
 
     <article className='plan'>
       <div className='headerContainer'>
