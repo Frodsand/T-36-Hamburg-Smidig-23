@@ -5,7 +5,6 @@ import '@testing-library/jest-dom/extend-expect';
 
 jest.mock('../components/Nav_bar', () => 'MockedNavigationBar');
 jest.mock('../components/header', () => 'MockedHeader');
-jest.mock('../components/ShowLectures', () => 'MockedLectures');
 jest.mock('../components/LectureCard', () => 'MockedLectureCard');
 
 
