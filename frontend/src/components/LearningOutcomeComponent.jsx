@@ -1,11 +1,18 @@
-const LearningOutcomeComponent = ({learningOutcome}) => {
-    return (
-        <div>
-            <h3>Læringsmål</h3>
-            <p>{learningOutcome}</p>
-        </div>
-    )
-}
+import React from 'react';
+import '../styling/LecturePlanStyle.css';
 
+const LearningOutcomeComponent = ({ learningOutcome }) => {
 
-export default LearningOutcomeComponent
+const splitLearningOutcome = learningOutcome.split('\n');
+
+  return (
+    <div>
+      <h3 className="learningoutcometitle">Læringsmål</h3>
+      {splitLearningOutcome.map((outcome, index) => (
+        <p key={index}>{outcome}</p>
+      ))}
+    </div>
+  );
+};
+
+export default LearningOutcomeComponent;
