@@ -17,7 +17,7 @@ const LectureCard = ({ lectureObject }) => {
                 <p>{"Nivå " + lectureObject.level}</p>
             </div>
 
-            <h3 className='lectureTitle'>{lectureObject.lectureTitle}</h3>
+            <h4 className='lectureTitle'>{lectureObject.title}</h4>
             <p className='recipe-info_heading'>Praktisk oppgave:</p>
 
             <div className='recipe-info'>
@@ -36,9 +36,7 @@ const LectureCard = ({ lectureObject }) => {
             </div>
 
 
-            <button onClick={handleOnClick}>Se undervisningsplan</button>
-
-
+            <button className="details-btn" onClick={handleOnClick}>Se undervisningsplan</button>
 
 
         </article>
