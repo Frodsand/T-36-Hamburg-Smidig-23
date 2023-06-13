@@ -2,6 +2,8 @@ import "../styling/header.css"
 import { AiOutlineUser } from "react-icons/ai"
 import { useAuthContext } from "../hooks/useAuthContext"
 import { useLogout } from '../hooks/useLogout'
+import {OutlineWhiteButton} from '../components/Buttons'
+
 
 const Header = () => {
 
@@ -24,12 +26,12 @@ const Header = () => {
                 <img className="logo" src={logo} alt="logo" />
             </button>
             { user && (
-            <div> 
-            <span>User: { user.username }</span>
+            <div className="userName"> 
+            <span>{ user.username }</span>
             </div>
             )}
-            <div>
-                <button onClick={handleClick}>Logout</button>
+            <div className="logOut">
+                <OutlineWhiteButton buttonText="logg ut" onClick={handleClick}></OutlineWhiteButton>
             </div>
             <div className="user-icon-box">
                 <AiOutlineUser className="user-icon"/>

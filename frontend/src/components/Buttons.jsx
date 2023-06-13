@@ -5,29 +5,29 @@ import '../styling/buttons.css'
 // 2 -> in jsx: <PrimaryButton buttonText="Enter butten text here"></PrimaryButton> 
 
 
-export const PrimaryButton = ({buttonText}) => {
+export const PrimaryButton = ({buttonText, onClick}) => {
 
-    return <button className="button primary">{buttonText}</button>
+    return <button className="button primary" onClick={onClick}>{buttonText}</button>
 }
 
-export const OutlinePrimaryButton = ({buttonText}) => {
+export const OutlinePrimaryButton = ({buttonText, onClick}) => {
 
-    return <button className="button primaryOutline">{buttonText}</button>
+    return <button className="button primaryOutline" onClick={onClick}>{buttonText}</button>
 }
 
-export const BigPrimaryButton = ({buttonText}) => {
+export const BigPrimaryButton = ({buttonText, onClick}) => {
 
-    return <button className="button primary big">{buttonText}</button>
+    return <button className="button primary big" onClick={onClick}>{buttonText}</button>
 }
 
-export const OutlineBlackButton = ({buttonText}) => {
+export const OutlineBlackButton = ({buttonText, onClick}) => {
 
-    return <button className="button blackOutline">{buttonText}</button>
+    return <button className="button blackOutline" onClick={onClick}>{buttonText}</button>
 }
 
-export const OutlineWhiteButton = ({buttonText}) => {
+export const OutlineWhiteButton = ({buttonText, onClick}) => {
 
-    return <button className="button whiteOutline">{buttonText}</button>
+    return <button className="button whiteOutline" onClick={onClick}>{buttonText}</button>
 }
 
 

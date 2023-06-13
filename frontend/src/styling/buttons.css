@@ -2,14 +2,12 @@
     padding: 1em 2em 1em 2em ;
     border-radius: 2em;
     border: none;
-
     transition: scale 0.3s ease;
 }
 
 .primary{
     background: linear-gradient(to right, #FD7752,#CA4A35 );
     color: white;
-
 }
 
 .primaryOutline{
@@ -27,14 +25,15 @@
 
 .whiteOutline{
     background: none;
-    border: 2px solid white;
+    border: 3px solid white;
     color: white;
+    font-weight: 900;
+    padding: 0.5em 1em 0.5em 1em ;
 }
 
 .big{
     width: 80%;
     font-size: 1rem;
-
 }
 
 .button:hover{
