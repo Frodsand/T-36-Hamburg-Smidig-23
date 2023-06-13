@@ -6,23 +6,22 @@ import {BigPrimaryButton} from './Buttons'
 const SidebarComponent = ({lectures}) => {
 
     const [lectureArray, setLectureArray] = useState(lectures)
+    const categoryArray = lectures ?[...new Set(lectures.map((lecture) => lecture.category))] : [] // checks if lectures is null before setting
+    const levelArray = lectures ? [...new Set(lectures.map((lecture) => lecture.level))] : []
 
+    //populates the lectureArray when component is mounted
     useEffect(
         () => {
             setLectureArray(lectures)
-        }, [lectures] )
-
+        }, [lectures] ) 
     
-    const [searchInput, setSearchInput] = useState('')
-    
-
     const handleSearchInput = (event) => {
-        const updatedSearchInput = event.target.value
-        setSearchInput(updatedSearchInput)
-        searchRecipes(updatedSearchInput)
+        const searchInput = event.target.value
+        searchLectureCards(searchInput)
     }
 
-    const searchRecipes = (searchInput) => {
+    //Searches for title or recipe
+    const searchLectureCards = (searchInput) => {
         if (searchInput === ''){
             setLectureArray(lectures)
         }else{
@@ -32,6 +31,38 @@ const SidebarComponent = ({lectures}) => {
     )
             setLectureArray(searchResult)
         }
+    }
+
+    const handleCategoryInput = (event) => {
+        const filterInput = event.target.value
+        filterCategory(filterInput)
+    }
+
+    const filterCategory = (filterInput) => {
+        if(filterInput === ''){
+            setLectureArray(lectures)
+        }else{
+            const filterResult = lectures.filter((lecture) =>
+            lecture.category === filterInput )
+
+            setLectureArray(filterResult)
+        }  
+    }
+
+    const handleLevelInput = (event) => {
+        const filterInput = event.target.value
+        filterLevel(filterInput)
+    }
+
+    const filterLevel = (filterInput) => {
+        if(filterInput === ''){
+            setLectureArray(lectures)
+        }else{
+            const filterResult = lectures.filter((lecture) =>
+            lecture.level === filterInput )
+
+            setLectureArray(filterResult)
+        }  
     }
 
 
@@ -45,12 +76,24 @@ const SidebarComponent = ({lectures}) => {
                     onChange={handleSearchInput}
                 />
 
-                <select className="select" name="Kategori" id="category">
-                    <option value="">Kategori</option>
+                <select className="select" name="Kategori" id="category" onChange={handleCategoryInput}>
+                    <option 
+                        value="">Kategori
+                    </option>
+                    {categoryArray.map((category) => (
+                        <option value={category} key={category}>
+                            {category}
+                        </option>
+                    ))}
                 </select>
 
-                <select className="select" name="Nivå" id="level">
+                <select className="select" name="Nivå" id="level" onChange={handleLevelInput}>
                     <option value="">Nivå</option>
+                    {levelArray.map((level) => (
+                        <option value={level} key={level}>
+                            {level}
+                        </option>
+                    ))}
                 </select>
 
                 <select className="select" name="Allergier" id="allergies">
