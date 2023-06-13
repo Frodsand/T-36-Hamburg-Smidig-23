@@ -48,3 +48,20 @@
     justify-content: center;
     align-items: center;
 }
+
+.userName {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -60px;
+    padding-left: 86%;
+    color: white;
+    margin-left: 10px;
+}
+
+.logOut{
+    position: absolute;
+    font-weight: bold;
+    padding-left: 88%;
+    padding-top: 2%;
+}
