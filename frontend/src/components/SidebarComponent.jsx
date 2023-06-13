@@ -35,20 +35,20 @@ const SidebarComponent = ({lectures}) => {
             <h3 className='subtitle'>Undervisninger</h3>
             <section className="lectureCardsContainer">{
                 lectureArray && lectureArray.map( (lecture) => (
-                        <div className='lectureCard'>
+                        <div className='lectureCard' key={lecture._id}>
                             <div className='lectureCard_imageContainer'>
                             
                             </div>
                             
                             <div className='lectureCard_textContainer'>
                                 <h5 className='lectureCard_lectureCategory'>{lecture.category}</h5>
-                                <h3 className='lectureCard_lectureTitle'>{lecture.lectureTitle}</h3> 
+                                <h5 className='lectureCard_lectureTitle'>{lecture.lectureTitle}</h5> 
                                 <h5 className='lectureCard_recipeTitle'>{lecture.recipeTitle}</h5> 
                             </div>
 
                             <div className='lectureCard_infoContainer'>
-                                <p>{"Nivå: " + lecture.level}</p>
-                                <p>Allergier</p>
+                                <h5>{"Nivå: " + lecture.level}</h5>
+                                <h5>Allergier</h5>
                             </div>
                             
                         </div>
