@@ -10,14 +10,40 @@ const SidebarComponent = ({lectures}) => {
     useEffect(
         () => {
             setLectureArray(lectures)
-        }
+        }, [lectures] )
+
+    
+    const [searchInput, setSearchInput] = useState('')
+    
+
+    const handleSearchInput = (event) => {
+        const updatedSearchInput = event.target.value
+        setSearchInput(updatedSearchInput)
+        searchRecipes(updatedSearchInput)
+    }
+
+    const searchRecipes = (searchInput) => {
+        if (searchInput === ''){
+            setLectureArray(lectures)
+        }else{
+            const searchResult = lectures.filter((lecture) =>
+            lecture.recipeTitle.toLowerCase().includes(searchInput.toLowerCase()) ||
+            lecture.title.toLowerCase().includes(searchInput.toLowerCase())
     )
+            setLectureArray(searchResult)
+        }
+    }
 
 
     return (
         <section className="sidebarComponent">
             <nav className="inputContainer">
-                <input className="searchbar" type="text" placeholder='Søk etter undervisninger' />
+                <input 
+                    className="searchbar" 
+                    type="text" 
+                    placeholder='Søk etter undervisninger' 
+                    onChange={handleSearchInput}
+                />
 
                 <select className="select" name="Kategori" id="category">
                     <option value="">Kategori</option>
@@ -42,7 +68,7 @@ const SidebarComponent = ({lectures}) => {
                             
                             <div className='lectureCard_textContainer'>
                                 <h5 className='lectureCard_lectureCategory'>{lecture.category}</h5>
-                                <h5 className='lectureCard_lectureTitle'>{lecture.lectureTitle}</h5> 
+                                <h5 className='lectureCard_lectureTitle'>{lecture.title}</h5> 
                                 <h5 className='lectureCard_recipeTitle'>{lecture.recipeTitle}</h5> 
                             </div>
 
