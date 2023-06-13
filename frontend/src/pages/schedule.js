@@ -49,7 +49,7 @@ function Schedule() {
       </section>
 
       <section className='sidebarContainer'>
-        <SidebarComponent />
+        <SidebarComponent lectures={lectures} />
       </section>
     </div>
   )
