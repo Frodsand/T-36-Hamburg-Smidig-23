@@ -6,7 +6,9 @@ const RecipeComponent = ({ lectureObject }) => {
   return (
     <section className='recipeContainer'>
       <h3 className="recipeTitle">{lectureObject.recipeTitle}</h3>
-      <div className="imageContainer"></div>
+      <div className="imageContainer">
+          <img src={require("../resources/images/" + lectureObject.recipeImage)} alt={lectureObject.recipeImage} />
+      </div>
 
       <article className='ingredientsContainer'>
         <h4 className="titleIngredients">Ingredienser:</h4>
@@ -22,7 +24,7 @@ const RecipeComponent = ({ lectureObject }) => {
         <h4 className="titleInstructions">Framgangsmåte:</h4>
         <p>
           {splitInstructions.map((instruction, index) => {
-            return <span key={index}>{instruction}<br /></span>;
+            return <p className="instruction" key={index}>{instruction}<br /></p>;
           })}
         </p>
         <div className="instructions"></div>

@@ -91,6 +91,13 @@
 
 .lectureCard_imageContainer{
     width: 20%;
+    display: flex;
+    align-items: center;
+    padding-right: 0.5em;
+}
+
+.lectureCard_imageContainer img{
+    width: 100%;
 }
 
 .lectureCard_textContainer{
