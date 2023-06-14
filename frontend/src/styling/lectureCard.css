@@ -53,6 +53,10 @@
     width: 50%;
 }
 
+.recipe-info_image img{
+    width: 100%;
+}
+
 .details-btn{
  
    padding: 1em 2em 1em 2em ;
