@@ -106,7 +106,7 @@ const SidebarComponent = ({lectures}) => {
                 lectureArray && lectureArray.map( (lecture) => (
                         <div className='lectureCard' key={lecture._id}>
                             <div className='lectureCard_imageContainer'>
-                            
+                                <img src={require("../resources/images/" + lecture.recipeImage)} alt={lecture.recipeImage} />
                             </div>
                             
                             <div className='lectureCard_textContainer'>

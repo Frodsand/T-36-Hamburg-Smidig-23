@@ -30,7 +30,7 @@ const LectureCard = ({ lectureObject }) => {
                 </div>
 
                 <div className='recipe-info_image'>
-                    {lectureObject.image}
+                    <img src={require("../resources/images/" + lectureObject.recipeImage)} alt={lectureObject.recipeImage} />
                 </div>
 
             </div>
